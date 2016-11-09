@@ -1,0 +1,54 @@
+
+ 
+记录时间：2016-01-15 16:51:15,909 
+线程ID:[40] 
+日志级别：  ERROR 
+错误描述：在执行 controller[DoctorHomeController] 的 action[PatientList] 时产生异常
+ 
+System.AggregateException: 发生一个或多个错误。 ---> System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 CDMIS.Controllers.DoctorHomeController.GetPatientListByDoctorId(String doctorId, Int32 Status) 位置 e:\Program\task\github\CDMIS-1\CDMIS\Controllers\DoctorHomeController.cs:行号 422
+   在 CDMIS.Controllers.DoctorHomeController.PatientList(String PatientId) 位置 e:\Program\task\github\CDMIS-1\CDMIS\Controllers\DoctorHomeController.cs:行号 64
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+---> (内部异常 #0) System.Threading.Tasks.TaskCanceledException: 已取消一个任务。<---
+
+
+ 
+记录时间：2016-01-15 18:45:57,803 
+线程ID:[88] 
+日志级别：  ERROR 
+错误描述：在执行 controller[DoctorHomeController] 的 action[PatientList] 时产生异常
+ 
+System.AggregateException: 发生一个或多个错误。 ---> System.Threading.Tasks.TaskCanceledException: 已取消一个任务。
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   在 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   在 System.Threading.Tasks.Task`1.get_Result()
+   在 CDMIS.Controllers.DoctorHomeController.GetPatientListByDoctorId(String doctorId, Int32 Status) 位置 e:\Program\task\github\CDMIS-1\CDMIS\Controllers\DoctorHomeController.cs:行号 422
+   在 CDMIS.Controllers.DoctorHomeController.PatientList(String PatientId) 位置 e:\Program\task\github\CDMIS-1\CDMIS\Controllers\DoctorHomeController.cs:行号 64
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+---> (内部异常 #0) System.Threading.Tasks.TaskCanceledException: 已取消一个任务。<---
+
