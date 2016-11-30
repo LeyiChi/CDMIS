@@ -219,7 +219,7 @@
                     }
                     else
                     {
-                        @Html.TextBoxFor(model => model.LabTestInfo.ExamDate, new { id = "ExamDateInput", @onclick = "WdatePicker({minDate:'#F{$dp.$D(FirstDate)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })                     
+                        @Html.TextBoxFor(model => model.LabTestInfo.ExamDate, new { id = "ExamDateInput", @onclick = "WdatePicker({minDate:'#F{$dp.$D(FirstDate)}',maxDate:'%y-%M-%d %H:%m:%s',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })                     
                     }
                 </div>
             </div>
@@ -236,7 +236,7 @@
                     报告日期
                 </label>
                 <div class="col-sm-8">
-                    @Html.TextBoxFor(model => model.LabTestInfo.ReportDate, new { id = "ReportDateInput", @onclick = "WdatePicker({minDate:'#F{$dp.$D(ExamDateInput)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
+                    @Html.TextBoxFor(model => model.LabTestInfo.ReportDate, new { id = "ReportDateInput", @onclick = "WdatePicker({minDate:'#F{$dp.$D(ExamDateInput)}',maxDate:'%y-%M-%d %H:%m:%s',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
                 </div>
             </div>
             @*alert弹出框*@
@@ -311,7 +311,7 @@
                 }
                 else
                 {
-                    @Html.TextBoxFor(model => model.LabTestInfo.ExamDate, new { id = "ExamDate", @onclick = "WdatePicker({minDate:'#F{$dp.$D(FirstDate)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
+                    @Html.TextBoxFor(model => model.LabTestInfo.ExamDate, new { id = "ExamDate", @onclick = "WdatePicker({minDate:'#F{$dp.$D(FirstDate)}',maxDate:'%y-%M-%d %H:%m:%s',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
                 }
             </div>
         </div>
@@ -326,7 +326,7 @@
             <label for="ReportDate" class="col-sm-4 control-label">
                 报告日期</label>
             <div class="col-sm-8">
-                @Html.TextBoxFor(model => model.LabTestInfo.ReportDate, new { id = "ReportDate", @onclick = "WdatePicker({minDate:'#F{$dp.$D(ExamDate)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
+                @Html.TextBoxFor(model => model.LabTestInfo.ReportDate, new { id = "ReportDate", @onclick = "WdatePicker({minDate:'#F{$dp.$D(ExamDate)}',maxDate:'%y-%M-%d %H:%m:%s',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
             </div>
         </div>
         <div class="form-group" style="display: none;" id="LabTestTip">

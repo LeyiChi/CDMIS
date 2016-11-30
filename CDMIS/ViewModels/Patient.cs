@@ -71,14 +71,19 @@ namespace CDMIS.ViewModels
         public List<PatientDetailInfo> ModuleDetailList = new List<PatientDetailInfo>();
         public bool InvalidFlag { get; set; }
 
-         [RegularExpression(@"(^((\+?86)|(\(\+86\)))?(13[012356789][0-9]{8}|15[012356789][0-9]{8}|18[02356789][0-9]{8}|147[0-9]{8}|1349[0-9]{7})$)|(^([0-9]{3,4}-)?[0-9]{7,8}$)", ErrorMessage = "联系方式输入不正确")]
+        //pxy 2016-11-22 修改联系电话，紧急联系电话，身份证号码正则表达
+        [RegularExpression(@"(^[1-9]\d{5}(18|19|([23]\d))\d{2}((0[1-9])|(10|11|12))(([0-2][1-9])|10|20|30|31)\d{3}[0-9Xx]$)",ErrorMessage = "身份证输入不正确")]
+        public string IDNo { get; set; }   //身份证
+
+
+         [RegularExpression(@"(^((\+?86)|(\(\+86\)))?(1(3[0-9]|4[57]|5[0-35-9]|7[0135678]|8[0-9])[0-9]{8}$))|(^([0-9]{3,4}-)?[0-9]{7,8}$)", ErrorMessage = "联系方式输入不正确")]
         public string Phone { get; set; }
         public string Address { get; set; }
         public string Occupation { get; set; }              //职业
         public string Nationality { get; set; }             //国籍
         public string EmergencyContact { get; set; }        //紧急联系人
 
-         [RegularExpression(@"(^((\+?86)|(\(\+86\)))?(13[012356789][0-9]{8}|15[012356789][0-9]{8}|18[02356789][0-9]{8}|147[0-9]{8}|1349[0-9]{7})$)|(^([0-9]{3,4}-)?[0-9]{7,8}$)", ErrorMessage = "联系方式输入不正确")]
+         [RegularExpression(@"(^((\+?86)|(\(\+86\)))?(1(3[0-9]|4[57]|5[0-35-9]|7[0135678]|8[0-9])[0-9]{8}$))|(^([0-9]{3,4}-)?[0-9]{7,8}$)", ErrorMessage = "紧急联系方式输入不正确")]
         public string EmergencyContactNumber { get; set; }  //紧急联系电话
 
         public List<List<InfoItem>> InfoItemList { get; set; }    //模块信息、模块关注详细信息  从字典表获取   //20141215修改 

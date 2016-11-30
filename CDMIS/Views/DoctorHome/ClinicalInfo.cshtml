@@ -145,8 +145,8 @@
                 <label class="col-sm-2 control-label">
                     起始日期
                 </label>
-                <div class="col-sm-4">
-                    @Html.TextBox("StartDateTime", "", new { id = "StartDateTime", @onclick = "WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
+                <div class="col-sm-4">@*pxy 2016-11-23 限制起始日期为当前系统时间之前*@
+                    @Html.TextBox("StartDateTime", "", new { id = "StartDateTime", @onclick = "WdatePicker({maxDate:'%y-%M-%d %H:%m:%s',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
                 </div>
                 @*<div class="col-sm-4">
                     <input style="font-size: 16px; font-weight: bold; text-align: center" value="起始日期未填时，将同步所有临床信息"
@@ -339,8 +339,8 @@
                     </div>
                     <label class="col-sm-2 control-label VisitId" style="display: none">
                         *就诊</label>
-                    <div class="col-sm-4 VisitId" style="display: none">
-                        @Html.DropDownListFor(model => model.ClinicalInfo.VisitIdSelected, Model.ClinicalInfoList, new { id = "ClinicalInfoListDropDownListFor", @class = "form-control" })
+                    <div class="col-sm-4 VisitId" style="display: none" >
+                        @Html.DropDownListFor(model => model.ClinicalInfo.VisitIdSelected, Model.ClinicalInfoList, new { id = "ClinicalInfoListDropDownListFor",@class = "form-control" })
                     </div>
                 </div>
                 <div class="form-group">
@@ -373,7 +373,8 @@
                         *转科日期
                     </label>
                     <div class="col-sm-4">
-                        @Html.TextBoxFor(model => model.ClinicalInfo.AdmissionDate, new { id = "AdmissionDateInput", @onclick = "WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
+                        
+                        @Html.TextBoxFor(model => model.ClinicalInfo.AdmissionDate, new { id = "AdmissionDateInput",@onclick="WdatePicker({maxDate: '&&%y-%M-%d %H:%m:%s', dateFmt: 'yyyy-MM-dd HH:mm:ss' })",@onfocus= "WdatePicker({onpicked:function(){$(DischargeDateInput).focus();}, minDate: '#F{$(ClinicalInfoListDropDownListFor).val().substr(17,19)}', maxDate: '%y-%M-%d %H:%m:%s', dateFmt: 'yyyy-MM-dd HH:mm:ss' })",@class = "form-control" })
                         @Html.ValidationMessageFor(model => model.ClinicalInfo.AdmissionDate)
                     </div>
                 </div>
@@ -381,7 +382,7 @@
                     <label class="col-sm-2 control-label DischargeDateInput">
                         出院日期</label>
                     <div class="col-sm-4 DischargeDateInput">
-                        @Html.TextBox("DischargeDate", "", new { id = "DischargeDateInput", @onclick = "WdatePicker({minDate:'#F{$dp.$D(AdmissionDateInput)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
+                        @Html.TextBox("DischargeDate", "", new { id = "DischargeDateInput", @onclick = "WdatePicker({maxDate:'%y-%M-%d %H:%m:%s',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @onfocus= "WdatePicker({minDate:'#F{$dp.$D(AdmissionDateInput)}',maxDate:'%y-%M-%d %H:%m:%s',dateFmt:'yyyy-MM-dd HH:mm:ss'})",@class = "form-control" })
                     </div>
                 </div>
                 <div class="form-group">
@@ -438,15 +439,25 @@
             <label for="AdmissionDate" class="col-sm-3 control-label">
                 *就诊时间</label>
             <div class="col-sm-9">
-                @Html.TextBoxFor(model => model.ClinicalInfo.AdmissionDate, new { id = "AdmissionDate", @onclick = "WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
+                @Html.TextBoxFor(model => model.ClinicalInfo.AdmissionDate, new { id = "AdmissionDate",  @class = "form-control" })
             </div>
         </div>
         <div class="form-group" id="editDischargeDate" style="display: none">
             <label for="DischargeDate" class="col-sm-3 control-label">
                 出院时间</label>
             <div class="col-sm-9">
-                @Html.TextBoxFor(model => model.ClinicalInfo.DischargeDate, new { id = "DischargeDate", @onclick = "WdatePicker({minDate:'#F{$dp.$D(AdmissionDateInput)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
-            </div>
+                @*
+                <script>
+                function getAdmissionDate(){
+                    return document.getElementById("AdmissionDate").value;
+                  }
+         
+                </script>
+                @Html.TextBoxFor(model => model.ClinicalInfo.DischargeDate, new { id = "DischargeDate",@onclick ="WdatePicker({minDate:getAdmissionDate(),maxDate:'%y-%M-%d %H:%m:%s',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
+                *@
+
+                @Html.TextBoxFor(model => model.ClinicalInfo.DischargeDate, new { id = "DischargeDate", @class = "form-control" })
+                 </div>
         </div>
         <div class="form-group" style="display: none;" id="Tip">
             <label class="col-sm-3 control-label" style="font-size: 16px; color: #FF0000; font-weight: bold">
@@ -530,7 +541,7 @@
         document.getElementById('HospitalListDropDownListFor').value = "";
         document.getElementById('VisitTypeListDropDownListFor').value = "";
 
-        document.getElementById('DeptListDropDownListFor').value = "";
+        document.getElementById('DeptListDropDownListFor').value = "26";//pxy 2016-11-29
 
         var table = $('#InfoList').DataTable({
             "oLanguage": {//语言国际化
@@ -598,6 +609,10 @@
             EditData(VisitId, HospitalCode, DepartmentCode, AdmissionDate, DischargeDate, Doctor, SortNo);
         });
 
+
+
+
+
         //编辑数据界面
         function EditData(VisitId, HospitalCode, DepartmentCode, AdmissionDate, DischargeDate, Doctor, SortNo) {
             document.getElementById("VisitId").value = VisitId;
@@ -620,6 +635,11 @@
                 placeholder_text: "请选择……"
             });
         }
+
+
+
+
+
 
         $(".saveClinicalInfoBtn").click(function () {
             var VisitId = document.getElementById("VisitId").value;
@@ -763,8 +783,16 @@
 
     $(".DischargeDateInput").hide();
     $(function () {
+        //pxy 2016-11-24
+        $("#ClinicalInfoListDropDownListFor").change(function () {
+            $("#AdmissionDateInput").focus();
+        })
+
         $("#VisitTypeListDropDownListFor").change(function () {
             var value = $(this).val();
+            $("#ClinicalInfoListDropDownListFor").val("");//就诊ID清空  pxy
+            $("#AdmissionDateInput").val("");
+            $("#DischargeDateInput").val("");
             switch (value) {
                 case "1":
                     $("#JiuZhenDate").show();
@@ -797,8 +825,29 @@
             }
         });
     });
+    
+
+  
+    
 
     $(function () {
+        $("#DischargeDate").click(function () {
+            var min = document.getElementById("AdmissionDate").value;
+           
+            WdatePicker({minDate:min,maxDate:'%y-%M-%d %H:%m:%s',dateFmt:'yyyy-MM-dd HH:mm:ss'});
+        })
+        $("#DischargeDate").focus(function () {
+            var min = document.getElementById("AdmissionDate").value;
+            
+            WdatePicker({ minDate: min, maxDate: '%y-%M-%d %H:%m:%s', dateFmt: 'yyyy-MM-dd HH:mm:ss' });
+        })
+        $("#AdmissionDate").click(function () {
+            var dis = document.getElementById("DischargeDate")
+            WdatePicker({ onpicked: function () { dis.focus();},maxDate:'%y-%M-%d %H:%m:%s', dateFmt: 'yyyy-MM-dd HH:mm:ss' });
+           
+        })
+
+
         $("#VisitTypeName").change(function () {
             var value = $(this).val();
 
@@ -815,6 +864,10 @@
     $(document).ready(function () {
         //鼠标移动到行变色,单独建立css类hover
         //tr:gt(0):表示获取大于 tr index 为0 的所有tr，即不包括表头
+
+     
+
+
         $("#TableBody tr").hover(
         function () {
             $(this).addClass("tdhover")
