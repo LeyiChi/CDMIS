@@ -195,10 +195,11 @@
                     </div>
                     <label class="col-sm-2 control-label">
                         身份证号码</label>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4"><!--pxy 2016-11-22-->
                         @Html.TextBoxFor(model => model.Patient.IDNo, new { id = "IDNo", style = "font-size:15px", @class = "form-control" })
                         @Html.ValidationMessageFor(model => model.Patient.IDNo)
                     </div>
+                
                 </div>
                 <div class="form-group basicInfo">
                     <label class="col-sm-2 control-label">
@@ -410,6 +411,8 @@
             }
         }
     }
+
+
 
     function Enter() {
         if (event.keyCode == 13) {

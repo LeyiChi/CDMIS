@@ -182,7 +182,12 @@
                     *症状记录时间
                 </label>
                 <div class="col-sm-8">
-                    @Html.TextBoxFor(model => model.Symptoms.RecordDate, new { id = "RecordDateInput", @onclick = "WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
+                 @if (Model.VisitId.Substring(0, 2) == "In"){
+                    @Html.TextBoxFor(model => model.Symptoms.RecordDate, new { id = "RecordDateInput", @onclick = "WdatePicker({maxDate:'#F{$dp.$D(LastDate)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
+                }
+                else{
+                    @Html.TextBoxFor(model => model.Symptoms.RecordDate, new { id = "RecordDateInput", @onclick = "WdatePicker({maxDate:'#F{$dp.$D(FirstDate,{d:1})}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
+                }
                     @Html.ValidationMessageFor(model => model.Symptoms.RecordDate)
                 </div>
             </div>
@@ -255,7 +260,14 @@
                 *记录日期</label>
             <div class="col-sm-9">
                 @*<input type="text" class="form-control" id="RecordDate" />*@
-                @Html.TextBoxFor(model => model.Symptoms.RecordDate, new { id = "RecordDate", @onclick = "WdatePicker({maxDate:'%y-%M-%d'})", @class = "form-control" })
+            @if (Model.VisitId.Substring(0, 2) == "In")
+            {
+                @Html.TextBoxFor(model => model.Symptoms.RecordDate, new { id = "RecordDate", @onclick = "WdatePicker({maxDate:'#F{$dp.$D(LastDate)}'})", @class = "form-control" })
+            }
+            else { 
+                @Html.TextBoxFor(model => model.Symptoms.RecordDate, new { id = "RecordDate", @onclick = "WdatePicker({maxDate:'#F{$dp.$D(FirstDate,{d:1})}'})", @class = "form-control" })
+            }
+                
                 @Html.ValidationMessageFor(model => model.Symptoms.RecordDate)
             </div>
         </div>

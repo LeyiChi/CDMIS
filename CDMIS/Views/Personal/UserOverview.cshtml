@@ -22,12 +22,14 @@
         {
             <a href="#">@Html.ActionLink(Model.UserName, "PersonalHomepage", "Personal")</a>
         }
+        
         @if (Model.Role == "Patient")
         {
             <span>，未完成任务:</span>
             @Html.ActionLink(Model.UndoneCount, "TaskList", "PatientHome", new { UserId = @Model.UserId }, new { id = "UndoneCount"})    
             <span>个，</span>
         }
+        
         @if (Model.InvalidFlag == "0")
         {
         <a href="#">[@switch (Model.Role)

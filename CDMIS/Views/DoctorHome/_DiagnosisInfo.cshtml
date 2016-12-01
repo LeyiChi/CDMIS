@@ -205,7 +205,7 @@
                     }
                     else
                     {
-                        @Html.TextBoxFor(model => model.DiagnosisInfo.RecordDate, new { id = "RecordDateInput", @onclick = "WdatePicker({minDate:'#F{$dp.$D(FirstDate)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })              
+                        @Html.TextBoxFor(model => model.DiagnosisInfo.RecordDate, new { id = "RecordDateInput", @onclick = "WdatePicker({minDate:'#F{$dp.$D(FirstDate)}',maxDate:'%y-%M-%d %H:%m:%s',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })              
                     }
                 </div>
             </div>
@@ -289,8 +289,8 @@
                 }
                 else
                 {
-                    @Html.TextBoxFor(model => model.DiagnosisInfo.RecordDate, new { id = "RecordDate", @onclick = "WdatePicker({minDate:'#F{$dp.$D(FirstDate)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })               
-                }
+                    @Html.TextBoxFor(model => model.DiagnosisInfo.RecordDate, new { id = "RecordDate", @onclick = "WdatePicker({minDate:'#F{$dp.$D(FirstDate)}',maxDate:'%y-%M-%d %H:%m:%s',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })               
+               }
             </div>
         </div>
         <div class="form-group" style="display: none;" id="DiagnosisTip">

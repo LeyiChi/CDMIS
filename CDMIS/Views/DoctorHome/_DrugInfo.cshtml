@@ -270,6 +270,7 @@
                     *开始时间
                 </label>
                 <div class="col-sm-8">
+                    @*
                     @if (Model.VisitId.Substring(0, 2) == "In")
                     {
                         @Html.TextBoxFor(model => model.DrugInfo.StartDateTime, new { id = "StartDateTimeInput", @onclick = "WdatePicker({minDate:'#F{$dp.$D(FirstDate)}',maxDate:'#F{$dp.$D(LastDate)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
@@ -278,6 +279,9 @@
                     {
                         @Html.TextBoxFor(model => model.DrugInfo.StartDateTime, new { id = "StartDateTimeInput", @onclick = "WdatePicker({minDate:'#F{$dp.$D(FirstDate)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })                     
                     }
+                    *@
+                    @Html.TextBoxFor(model => model.DrugInfo.StartDateTime, new { id = "StartDateTimeInput", @onclick = "WdatePicker({minDate:'#F{$dp.$D(FirstDate)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
+
                 </div>
             </div>
             <div class="form-group">
@@ -285,6 +289,7 @@
                     *结束时间
                 </label>
                 <div class="col-sm-8">
+                    @*
                     @if (Model.VisitId.Substring(0, 2) == "In")
                     {
                         @Html.TextBoxFor(model => model.DrugInfo.StopDateTime, new { id = "StopDateTimeInput", @onclick = "WdatePicker({minDate:'#F{$dp.$D(StartDateTimeInput)}',maxDate:'#F{$dp.$D(LastDate)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
@@ -293,6 +298,8 @@
                     {
                         @Html.TextBoxFor(model => model.DrugInfo.StopDateTime, new { id = "StopDateTimeInput", @onclick = "WdatePicker({minDate:'#F{$dp.$D(StartDateTimeInput)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })                    
                     }
+                    *@
+                    @Html.TextBoxFor(model => model.DrugInfo.StopDateTime, new { id = "StopDateTimeInput", @onclick = "WdatePicker({minDate:'#F{$dp.$D(StartDateTimeInput)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})",@class = "form-control" })                 
                 </div>
             </div>
             <div class="form-group">
@@ -408,6 +415,7 @@
             <label for="StartDateTime" class="col-sm-3 control-label">
                 *开始时间</label>
             <div class="col-sm-9">
+                @*
                 @if (Model.VisitId.Substring(0, 2) == "In")
                 {
                     @Html.TextBoxFor(model => model.DrugInfo.StartDateTime, new { id = "StartDateTime", @onclick = "WdatePicker({minDate:'#F{$dp.$D(FirstDate)}',maxDate:'#F{$dp.$D(LastDate)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
@@ -416,12 +424,15 @@
                 {
                     @Html.TextBoxFor(model => model.DrugInfo.StartDateTime, new { id = "StartDateTime", @onclick = "WdatePicker({minDate:'#F{$dp.$D(FirstDate)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })                     
                 }
+                *@
+                @Html.TextBoxFor(model => model.DrugInfo.StartDateTime, new { id = "StartDateTime", @onclick = "WdatePicker({minDate:'#F{$dp.$D(FirstDate)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})",@class = "form-control" })                    
             </div>
         </div>
         <div class="form-group">
             <label for="StopDateTime" class="col-sm-3 control-label">
                 *结束时间</label>
             <div class="col-sm-9">
+                @*
                 @if (Model.VisitId.Substring(0, 2) == "In")
                 {
                     @Html.TextBoxFor(model => model.DrugInfo.StopDateTime, new { id = "StopDateTime", @onclick = "WdatePicker({minDate:'#F{$dp.$D(StartDateTime)}',maxDate:'#F{$dp.$D(LastDate)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
@@ -430,6 +441,8 @@
                 {
                     @Html.TextBoxFor(model => model.DrugInfo.StopDateTime, new { id = "StopDateTime", @onclick = "WdatePicker({minDate:'#F{$dp.$D(StartDateTime)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })                    
                 }
+                *@
+                @Html.TextBoxFor(model => model.DrugInfo.StopDateTime, new { id = "StopDateTime", @onclick = "WdatePicker({minDate:'#F{$dp.$D(StartDateTime)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })                  
             </div>
         </div>
         <div class="form-group">
@@ -561,6 +574,8 @@
     $("#DrugInfoList").attr("width", "auto");
 
     $(document).ready(function () {
+
+
         document.getElementById("DrugTypeDropDownList").value = "";
         document.getElementById("UnitDropDownListInput").value = "";
         document.getElementById("RouteDropDownList").value = "";
@@ -585,7 +600,11 @@
                 no_results_text: "没有找到相应的选项",
                 placeholder_text: "请选择"
             });
-        })
+
+
+
+
+            })
 
         //        $("#TableBody").ajaxComplete(function () { //待请求完成时 执行 
         $(document).on("click", ".editDrugInfoBtn", function () {
