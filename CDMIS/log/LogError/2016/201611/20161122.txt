@@ -1,0 +1,78 @@
+
+ 
+记录时间：2016-11-22 18:42:19,095 
+线程ID:[83] 
+日志级别：  ERROR 
+错误描述：在执行 controller[DoctorHomeController] 的 action[BasicProfile] 时产生异常
+ 
+System.ArgumentException: 正在分析“(^((\+?86)|(\(\+86\)))?( 1(3[0-9]|4[57]|5[0-35-9]|7[0135678]|8[0-9])\\d{8}$)|(^([0-9]{3,4}-)?[0-9]{7,8}$)”－ ) 不足。
+   在 System.Text.RegularExpressions.RegexParser.ScanRegex()
+   在 System.Text.RegularExpressions.RegexParser.Parse(String re, RegexOptions op)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options, TimeSpan matchTimeout, Boolean useCache)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern)
+   在 System.ComponentModel.DataAnnotations.RegularExpressionAttribute.SetupRegex()
+   在 System.ComponentModel.DataAnnotations.RegularExpressionAttribute.FormatErrorMessage(String name)
+   在 System.Web.Mvc.DataAnnotationsModelValidator.get_ErrorMessage()
+   在 System.Web.Mvc.RegularExpressionAttributeAdapter.GetClientValidationRules()
+   在 System.Web.Mvc.HtmlHelper.<.ctor>b__1(ModelValidator v)
+   在 System.Linq.Enumerable.<SelectManyIterator>d__16`2.MoveNext()
+   在 System.Web.Mvc.HtmlHelper.GetUnobtrusiveValidationAttributes(String name, ModelMetadata metadata)
+   在 System.Web.Mvc.Html.InputExtensions.InputHelper(HtmlHelper htmlHelper, InputType inputType, ModelMetadata metadata, String name, Object value, Boolean useViewData, Boolean isChecked, Boolean setId, Boolean isExplicitValue, IDictionary`2 htmlAttributes)
+   在 System.Web.Mvc.Html.InputExtensions.TextBoxFor[TModel,TProperty](HtmlHelper`1 htmlHelper, Expression`1 expression, IDictionary`2 htmlAttributes)
+   在 System.Web.Mvc.Html.InputExtensions.TextBoxFor[TModel,TProperty](HtmlHelper`1 htmlHelper, Expression`1 expression, Object htmlAttributes)
+   在 ASP._Page_Views_DoctorHome_BasicProfile_cshtml.Execute() 位置 e:\1实验室\5慢病\工程\CDMIS\CDMIS\Views\DoctorHome\BasicProfile.cshtml:行号 207
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+ 
+记录时间：2016-11-22 18:46:15,944 
+线程ID:[83] 
+日志级别：  ERROR 
+错误描述：在执行 controller[DoctorHomeController] 的 action[BasicProfile] 时产生异常
+ 
+System.ArgumentException: 正在分析“(^((\+?86)|(\(\+86\)))?( 1(3[0-9]|4[57]|5[0-35-9]|7[0135678]|8[0-9])\d{8}$)|(^([0-9]{3,4}-)?[0-9]{7,8}$)”－ ) 不足。
+   在 System.Text.RegularExpressions.RegexParser.ScanRegex()
+   在 System.Text.RegularExpressions.RegexParser.Parse(String re, RegexOptions op)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern, RegexOptions options, TimeSpan matchTimeout, Boolean useCache)
+   在 System.Text.RegularExpressions.Regex..ctor(String pattern)
+   在 System.ComponentModel.DataAnnotations.RegularExpressionAttribute.SetupRegex()
+   在 System.ComponentModel.DataAnnotations.RegularExpressionAttribute.FormatErrorMessage(String name)
+   在 System.Web.Mvc.DataAnnotationsModelValidator.get_ErrorMessage()
+   在 System.Web.Mvc.RegularExpressionAttributeAdapter.GetClientValidationRules()
+   在 System.Web.Mvc.HtmlHelper.<.ctor>b__1(ModelValidator v)
+   在 System.Linq.Enumerable.<SelectManyIterator>d__16`2.MoveNext()
+   在 System.Web.Mvc.HtmlHelper.GetUnobtrusiveValidationAttributes(String name, ModelMetadata metadata)
+   在 System.Web.Mvc.Html.InputExtensions.InputHelper(HtmlHelper htmlHelper, InputType inputType, ModelMetadata metadata, String name, Object value, Boolean useViewData, Boolean isChecked, Boolean setId, Boolean isExplicitValue, IDictionary`2 htmlAttributes)
+   在 System.Web.Mvc.Html.InputExtensions.TextBoxFor[TModel,TProperty](HtmlHelper`1 htmlHelper, Expression`1 expression, IDictionary`2 htmlAttributes)
+   在 System.Web.Mvc.Html.InputExtensions.TextBoxFor[TModel,TProperty](HtmlHelper`1 htmlHelper, Expression`1 expression, Object htmlAttributes)
+   在 ASP._Page_Views_DoctorHome_BasicProfile_cshtml.Execute() 位置 e:\1实验室\5慢病\工程\CDMIS\CDMIS\Views\DoctorHome\BasicProfile.cshtml:行号 207
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.StartPage.RunPage()
+   在 System.Web.WebPages.StartPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)

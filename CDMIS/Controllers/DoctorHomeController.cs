@@ -744,7 +744,12 @@ namespace CDMIS.Controllers
 
                 #region 插入患者详细信息
                 //插入 身份证号         
+               
+               
                 flag = _ServicesSoapClient.SetPatBasicInfoDetail(Patient, "Contact", "Contact001_1", 1, IDNo, "", 1, user.UserId, user.TerminalName, user.TerminalIP, user.DeviceType);
+               
+                
+                
                 //插入 职业
                 string Occupation = model.Occupation;
                 flag = _ServicesSoapClient.SetPatBasicInfoDetail(Patient, "Contact", "Contact001_2", 1, Occupation, "", 1, user.UserId, user.TerminalName, user.TerminalIP, user.DeviceType);
@@ -1884,10 +1889,11 @@ namespace CDMIS.Controllers
                     VisitId = VisitId_SortNo_AdmissionDate.Split('_')[0];
                     SortNo = Convert.ToInt32(VisitId_SortNo_AdmissionDate.Split('_')[1]);
                     DateTime LastAdmissionDate = Convert.ToDateTime(VisitId_SortNo_AdmissionDate.Split('_')[2]);
+                    string LastDepartment = VisitId_SortNo_AdmissionDate.Split('_')[3];//PXY 2016-11-30
                     DateTime TransforDate = model.ClinicalInfo.AdmissionDate;
 
                     //更新转科之前那条住院记录的出院日期为转科日期   不管转科之前的记录的出院日期是否已经填写，都重新写成转科日期
-                    flag = _ServicesSoapClient.SetInPatientInfo(UserId, VisitId, SortNo, LastAdmissionDate, TransforDate, HospitalCode, Department, Doctor, user.UserId, user.TerminalName, user.TerminalIP, user.DeviceType);
+                    flag = _ServicesSoapClient.SetInPatientInfo(UserId, VisitId, SortNo, LastAdmissionDate, TransforDate, HospitalCode, LastDepartment, Doctor, user.UserId, user.TerminalName, user.TerminalIP, user.DeviceType);
 
                     SortNo = SortNo + 1;
                     DateTime DischargeOutDate = new DateTime();
@@ -2917,11 +2923,11 @@ namespace CDMIS.Controllers
                         }
                         else
                         {
-                            ClinicalInfoList.Add(new SelectListItem { Text = rows[i - 1]["AdmissionDate"].ToString() + "_" + rows[i - 1]["HospitalName"].ToString() + "_" + rows[i - 1]["DepartmentName"].ToString(), Value = rows[i - 1]["VisitId"].ToString() + "_" + rows[i - 1]["SortNo"].ToString() + "_" + rows[i - 1]["AdmissionDate"].ToString() });
+                            ClinicalInfoList.Add(new SelectListItem { Text = rows[i - 1]["AdmissionDate"].ToString() + "_" + rows[i - 1]["HospitalName"].ToString() + "_" + rows[i - 1]["DepartmentName"].ToString(), Value = rows[i - 1]["VisitId"].ToString() + "_" + rows[i - 1]["SortNo"].ToString() + "_" + rows[i - 1]["AdmissionDate"].ToString() + "_" + rows[rows.Length - 1]["Department"].ToString() });
                             VID = rows[i]["VisitId"].ToString();
                         }
                     }
-                    ClinicalInfoList.Add(new SelectListItem { Text = rows[rows.Length - 1]["AdmissionDate"].ToString() + "_" + rows[rows.Length - 1]["HospitalName"].ToString() + "_" + rows[rows.Length - 1]["DepartmentName"].ToString(), Value = rows[rows.Length - 1]["VisitId"].ToString() + "_" + rows[rows.Length - 1]["SortNo"].ToString() + "_" + rows[rows.Length - 1]["AdmissionDate"].ToString() });
+                    ClinicalInfoList.Add(new SelectListItem { Text = rows[rows.Length - 1]["AdmissionDate"].ToString() + "_" + rows[rows.Length - 1]["HospitalName"].ToString() + "_" + rows[rows.Length - 1]["DepartmentName"].ToString(), Value = rows[rows.Length - 1]["VisitId"].ToString() + "_" + rows[rows.Length - 1]["SortNo"].ToString() + "_" + rows[rows.Length - 1]["AdmissionDate"].ToString() + "_" + rows[rows.Length-1]["Department"].ToString() });
                 }
             }
             return ClinicalInfoList;

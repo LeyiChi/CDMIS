@@ -198,3 +198,18 @@ E:\Work\chronic disease management\github\CDMIS\CDMIS\bin\zh-Hans\System.Net.Htt
 E:\Work\chronic disease management\github\CDMIS\CDMIS\obj\Debug\CDMIS.csprojResolveAssemblyReference.cache
 E:\Work\chronic disease management\github\CDMIS\CDMIS\obj\Debug\CDMIS.dll
 E:\Work\chronic disease management\github\CDMIS\CDMIS\obj\Debug\CDMIS.pdb
+E:\1实验室\5慢病\工程\CDMIS\CDMIS\bin\CDMIS.dll
+E:\1实验室\5慢病\工程\CDMIS\CDMIS\bin\CDMIS.pdb
+E:\1实验室\5慢病\工程\CDMIS\CDMIS\bin\EntityFramework.dll
+E:\1实验室\5慢病\工程\CDMIS\CDMIS\bin\log4net.dll
+E:\1实验室\5慢病\工程\CDMIS\CDMIS\bin\Newtonsoft.Json.dll
+E:\1实验室\5慢病\工程\CDMIS\CDMIS\bin\System.Net.Http.dll
+E:\1实验室\5慢病\工程\CDMIS\CDMIS\bin\EntityFramework.xml
+E:\1实验室\5慢病\工程\CDMIS\CDMIS\bin\log4net.xml
+E:\1实验室\5慢病\工程\CDMIS\CDMIS\bin\Newtonsoft.Json.pdb
+E:\1实验室\5慢病\工程\CDMIS\CDMIS\bin\Newtonsoft.Json.xml
+E:\1实验室\5慢病\工程\CDMIS\CDMIS\bin\System.Net.Http.xml
+E:\1实验室\5慢病\工程\CDMIS\CDMIS\bin\zh-Hans\System.Net.Http.resources.dll
+E:\1实验室\5慢病\工程\CDMIS\CDMIS\obj\Debug\CDMIS.dll
+E:\1实验室\5慢病\工程\CDMIS\CDMIS\obj\Debug\CDMIS.pdb
+E:\1实验室\5慢病\工程\CDMIS\CDMIS\obj\Debug\CDMIS.csprojResolveAssemblyReference.cache
