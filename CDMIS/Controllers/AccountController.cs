@@ -40,117 +40,135 @@ namespace CDMIS.Controllers
         }
 
         [HttpPost]
-        public ActionResult LogOn(LogOnModel LogOnModel, string control, string page)  //pxy  20161121   修改登录无权限登录时可看到个人信息，改为先检查该类型下用户是否存在，再检查用户和密码正确
+        public ActionResult LogOn(LogOnModel LogOnModel, string control, string page){
+    try
+    {
+        if(ModelState.IsValid)
         {
-            try
+            var UserId = LogOnModel.UserId;
+            var Password = LogOnModel.Password;
+            var Type = "";
+            var EmailFlag = Regex.IsMatch(UserId, @"(^[-_A-Za-z0-9]+@([_A-Za-z0-9]+\.)+[A-Za-z0-9]{2,3}$)");
+            var PhoneFlag = Regex.IsMatch(UserId, @"(^1[3-8]\d{9}$)");
+            if (EmailFlag == true){Type = "EmailAdd";}
+            if (PhoneFlag == true){Type = "PhoneNo";}
+            if (Type != ""){UserId = _ServicesSoapClient.GetIDByInput(Type, UserId);}
+            //判断用户是否存在
+            if (_ServicesSoapClient.CheckUserExist(UserId) == true)//如果用户存在
             {
-                if (ModelState.IsValid)
-                {
-                    var UserId = LogOnModel.UserId;
-                    var Password = LogOnModel.Password;
-                    var Type = "";
-                    var EmailFlag = Regex.IsMatch(UserId, @"(^[-_A-Za-z0-9]+@([_A-Za-z0-9]+\.)+[A-Za-z0-9]{2,3}$)");
-                    var PhoneFlag = Regex.IsMatch(UserId, @"(^1[3-8]\d{9}$)");
-                    if (EmailFlag == true) { Type = "EmailAdd"; }
-                    if (PhoneFlag == true) { Type = "PhoneNo"; }
-                    if (Type != "") { UserId = _ServicesSoapClient.GetIDByInput(Type, UserId); }
-                    if (_ServicesSoapClient.CheckUserExist(UserId) == true)
-                    {
-                        var RoleList = _ServicesSoapClient.GetAllRoleMatch(UserId);
-                        var length = RoleList.Tables[0].Rows.Count;
-                        string[] RoleClass = new string[length];
-                        bool isRoleMatch = false;
-                        for (int i = 0; i < length; i++)
+                //判断密码是否正确
+                if (_ServicesSoapClient.CheckPassword(UserId, Password) == 1)
+                {//如果密码正确
+                    var RoleList = _ServicesSoapClient.GetAllRoleMatch(UserId);
+                    var length = RoleList.Tables[0].Rows.Count;
+                    string[] RoleClass = new string[length];
+                    bool isRoleMatch = false;
+                    for (int i = 0; i < length; i++){
+                        RoleClass[i] = RoleList.Tables[0].Rows[i]["RoleClass"].ToString();
+                        if(RoleClass[i] == LogOnModel.UserRole)//判断登录类型是否和用户的其中一个角色相符
                         {
-                            RoleClass[i] = RoleList.Tables[0].Rows[i]["RoleClass"].ToString();
-                            if (RoleClass[i] == LogOnModel.UserRole) { isRoleMatch = true; }     //判断登录类型是否和用户的其中一个角色相符
+                            isRoleMatch = true;
+                        }     
+                    }
+                    //判断是否有角色权限
+                    if (isRoleMatch)
+                    {//如果有角色权限
+
+                        var CurrentUser = new UserAndRole();
+                        CurrentUser.UserId = UserId;
+                        CurrentUser.UserName = _ServicesSoapClient.GetUserName(UserId);
+                        CurrentUser.Role = LogOnModel.UserRole;
+                        string hostAddress = Request.ServerVariables.Get("Remote_Addr").ToString();
+                        if (hostAddress == "::1"){ hostAddress = "127.0.0.1";}
+                        CurrentUser.TerminalIP = hostAddress;
+                        string hostName = "";
+                        try
+                        {
+                            System.Net.IPHostEntry host = new System.Net.IPHostEntry();
+                            host = System.Net.Dns.GetHostEntry(hostAddress);
+                            hostName = host.HostName;
                         }
-                        if (isRoleMatch)
+                        catch{}
+                        finally
                         {
-                            if (_ServicesSoapClient.CheckPassword(UserId, Password) == 1)
-                            {
-                                var CurrentUser = new UserAndRole();
-                                CurrentUser.UserId = UserId;
-                                CurrentUser.UserName = _ServicesSoapClient.GetUserName(UserId);
-                                CurrentUser.Role = LogOnModel.UserRole;
-                                string hostAddress = Request.ServerVariables.Get("Remote_Addr").ToString();
-                                if (hostAddress == "::1") { hostAddress = "127.0.0.1"; }
-                                CurrentUser.TerminalIP = hostAddress;
-                                string hostName = "";
-                                try
-                                {
-                                    System.Net.IPHostEntry host = new System.Net.IPHostEntry();
-                                    host = System.Net.Dns.GetHostEntry(hostAddress);
-                                    hostName = host.HostName;
-                                }
-                                catch
-                                { 
-                                }
-                                finally
-                                {
-                                    if (hostName == "") { hostName = Request.ServerVariables.Get("Remote_Host").ToString(); }
-                                }
-                                CurrentUser.TerminalName = hostName;
+                            if (hostName == ""){hostName = Request.ServerVariables.Get("Remote_Host").ToString();}
+                        }
+                        CurrentUser.TerminalName = hostName;
+                            
+                        CurrentUser.DeviceType = 1;
 
-                                CurrentUser.DeviceType = 1;
+                        var ChangeLastLogOnTimeFlag = _ServicesSoapClient.UpdateLastLoginDateTime(CurrentUser.UserId, CurrentUser.UserName, CurrentUser.TerminalIP, CurrentUser.TerminalName, CurrentUser.DeviceType);
+                        Session["CurrentUser"] = CurrentUser;
+                        FormsAuthentication.SetAuthCookie(UserId, true);
 
-                                var ChangeLastLogOnTimeFlag = _ServicesSoapClient.UpdateLastLoginDateTime(CurrentUser.UserId, CurrentUser.UserName, CurrentUser.TerminalIP, CurrentUser.TerminalName, CurrentUser.DeviceType);
-                                Session["CurrentUser"] = CurrentUser;
-                                FormsAuthentication.SetAuthCookie(UserId, true);
-                                if (control == null && page == null)
-                                {
-                                    if (CurrentUser.Role == "Administrator" && LogOnModel.UserRole == "Administrator") { return RedirectToAction("Index", "Management"); }
-                                    else
-                                    {
-                                        var ActivitionFlag = _ServicesSoapClient.GetActivatedState(UserId, LogOnModel.UserRole);
-                                        if (ActivitionFlag == "0")
-                                        {
-                                            CurrentUser.Role = LogOnModel.UserRole;
-                                            if (CurrentUser.Role == "Doctor") { return RedirectToAction("PatientList", "DoctorHome"); }
-                                            else { return RedirectToAction("HealthCoachPatientList", "DoctorHome"); }
-
-                                        }
-                                        else
-                                        {
-                                            ModelState.AddModelError("errorConnection", "该用户没有权限登录本系统");
-                                            return View(LogOnModel);
-                                        }
-                                    }
-                                }
-                                else
-                                {
-                                    return RedirectToAction(page, control);
-                                }
+                        if (control == null && page == null)
+                        {
+                            if (CurrentUser.Role == "Administrator" && LogOnModel.UserRole == "Administrator")
+                            {//如果是管理员
+                                return RedirectToAction("Index", "Management");
                             }
                             else
-                            {
-                                ModelState.AddModelError("errorPassword", "密码错误，请重新输入密码");
-                                return View(LogOnModel);
+                            {//判断状态是否被激活
+                                var ActivitionFlag = _ServicesSoapClient.GetActivatedState(UserId, LogOnModel.UserRole);
+                                if(ActivitionFlag == "0")
+                                {//如果被激活
+
+                                    CurrentUser.Role = LogOnModel.UserRole;
+                                    if (CurrentUser.Role == "Doctor"){ return RedirectToAction("PatientList", "DoctorHome");}
+                                    else{return RedirectToAction("HealthCoachPatientList", "DoctorHome");}
+                                }
+                                else
+                                {//如果未被激活
+                                    ModelState.AddModelError("errorConnection", "该用户尚未激活");
+                                    return View(LogOnModel);
+                                }
                             }
+
                         }
                         else
                         {
-                            ModelState.AddModelError("errorUserId", "用户不存在，请重新输入用户ID");
-                            return View(LogOnModel);
+                            return RedirectToAction(page, control);
                         }
+
                     }
                     else
-                    {
-                        ModelState.AddModelError("errorUserId", "用户不存在，请重新输入用户ID");
+                    {//如果没有角色权限
+                        ModelState.AddModelError("errorConnection", "该用户没有权限登录本系统");
                         return View(LogOnModel);
+
                     }
+                    
                 }
                 else
-                {
+                {//如果密码不正确
+                    ModelState.AddModelError("errorPassword", "密码错误，请重新输入密码");
                     return View(LogOnModel);
+
                 }
+
+
             }
-            catch (Exception)
-            {
-                ModelState.AddModelError("errorConnection", "数据库连接失败");
+
+            else
+            {//如果用户不存在
+                ModelState.AddModelError("errorUserId", "用户不存在，请重新输入用户ID");
                 return View(LogOnModel);
+
             }
         }
+        else
+        {
+            return View(LogOnModel);
+        }
+
+    }
+    catch (Exception)
+    {
+        ModelState.AddModelError("errorConnection", "数据库连接失败");
+        return View(LogOnModel);
+    }
+}
+            
 
         public ActionResult LogOff()
         {

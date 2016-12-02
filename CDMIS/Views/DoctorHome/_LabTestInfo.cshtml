@@ -215,11 +215,11 @@
                 <div class="col-sm-8">
                     @if (Model.VisitId.Substring(0, 2) == "In")
                     {
-                        @Html.TextBoxFor(model => model.LabTestInfo.ExamDate, new { id = "ExamDateInput", @onclick = "WdatePicker({minDate:'#F{$dp.$D(FirstDate)}',maxDate:'#F{$dp.$D(LastDate)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
+                        @Html.TextBoxFor(model => model.LabTestInfo.ExamDate, new { id = "ExamDateInput_lab", @onclick = "WdatePicker({minDate:'#F{$dp.$D(FirstDate)}',maxDate:'#F{$dp.$D(LastDate)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
                     }
                     else
                     {
-                        @Html.TextBoxFor(model => model.LabTestInfo.ExamDate, new { id = "ExamDateInput", @onclick = "WdatePicker({minDate:'#F{$dp.$D(FirstDate)}',maxDate:'%y-%M-%d %H:%m:%s',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })                     
+                        @Html.TextBoxFor(model => model.LabTestInfo.ExamDate, new { id = "ExamDateInput_lab", @onclick = "WdatePicker({minDate:'#F{$dp.$D(FirstDate)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })                     
                     }
                 </div>
             </div>
@@ -236,7 +236,7 @@
                     报告日期
                 </label>
                 <div class="col-sm-8">
-                    @Html.TextBoxFor(model => model.LabTestInfo.ReportDate, new { id = "ReportDateInput", @onclick = "WdatePicker({minDate:'#F{$dp.$D(ExamDateInput)}',maxDate:'%y-%M-%d %H:%m:%s',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
+                    @Html.TextBoxFor(model => model.LabTestInfo.ReportDate, new { id = "ReportDateInput", @onclick = "WdatePicker({minDate:'#F{$dp.$D(ExamDateInput_lab)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
                 </div>
             </div>
             @*alert弹出框*@
@@ -311,7 +311,7 @@
                 }
                 else
                 {
-                    @Html.TextBoxFor(model => model.LabTestInfo.ExamDate, new { id = "ExamDate", @onclick = "WdatePicker({minDate:'#F{$dp.$D(FirstDate)}',maxDate:'%y-%M-%d %H:%m:%s',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
+                    @Html.TextBoxFor(model => model.LabTestInfo.ExamDate, new { id = "ExamDate", @onclick = "WdatePicker({minDate:'#F{$dp.$D(FirstDate)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
                 }
             </div>
         </div>
@@ -326,7 +326,7 @@
             <label for="ReportDate" class="col-sm-4 control-label">
                 报告日期</label>
             <div class="col-sm-8">
-                @Html.TextBoxFor(model => model.LabTestInfo.ReportDate, new { id = "ReportDate", @onclick = "WdatePicker({minDate:'#F{$dp.$D(ExamDate)}',maxDate:'%y-%M-%d %H:%m:%s',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
+                @Html.TextBoxFor(model => model.LabTestInfo.ReportDate, new { id = "ReportDate", @onclick = "WdatePicker({minDate:'#F{$dp.$D(ExamDate)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
             </div>
         </div>
         <div class="form-group" style="display: none;" id="LabTestTip">
@@ -630,7 +630,7 @@
             var SortNo = parseInt($("#MaxSortNo").val()) + 1;
             var LabItemType = document.getElementById("LabItemTypeNameListDropDownList").value;
             var LabItemCode = document.getElementById("LabItemNameListDropDownList").value;
-            var ExamDate = document.getElementById("ExamDateInput").value;
+            var ExamDate = document.getElementById("ExamDateInput_lab").value;
             var Status = document.getElementById("StatusListDropDownList").value;
             var ReportDate = document.getElementById("ReportDateInput").value;
             var DeptCode = document.getElementById("DeptListDropDownList").value;
@@ -680,7 +680,7 @@
                             document.getElementById("LabItemTypeNameListDropDownList").value = "";
                             document.getElementById("LabItemNameListDropDownList").value = "";
                             document.getElementById("StatusListDropDownList").value = "";
-                            document.getElementById("ExamDateInput").value = "";
+                            document.getElementById("ExamDateInput_lab").value = "";
                             document.getElementById("ReportDateInput").value = "";
                             document.getElementById("DeptListDropDownList").value = "";
                             $("#cancel").click();
