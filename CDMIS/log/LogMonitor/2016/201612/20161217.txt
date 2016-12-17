@@ -1502,3 +1502,2019 @@
             URL参数：
                     
  
+
+ 
+记录时间：2016-12-17 11:57:33,881 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:LogOn
+            开始时间：2016/12/17 11:57:33
+            结束时间：2016/12/17 11:57:33
+            总 时 间：0.0040416秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:35,458 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/17 11:57:35
+            结束时间：2016/12/17 11:57:35
+            总 时 间：0.0020231秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:35,936 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/17 11:57:35
+            结束时间：2016/12/17 11:57:35
+            总 时 间：0.4773182秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:35,936 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:LogOn
+            开始时间：2016/12/17 11:57:33
+            结束时间：2016/12/17 11:57:35
+            总 时 间：2.0483934秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:36,122 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:GetValidateCode1
+            开始时间：2016/12/17 11:57:36
+            结束时间：2016/12/17 11:57:36
+            总 时 间：0.009065秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:36,122 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:GetValidateCode1
+            开始时间：2016/12/17 11:57:36
+            结束时间：2016/12/17 11:57:36
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:36,317 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:GetValidateCode1
+            开始时间：2016/12/17 11:57:36
+            结束时间：2016/12/17 11:57:36
+            总 时 间：0.0010949秒
+            Form表单数据：
+            URL参数：time=1481947056271
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:36,317 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:GetValidateCode1
+            开始时间：2016/12/17 11:57:36
+            结束时间：2016/12/17 11:57:36
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：time=1481947056271
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:40,659 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:CheckValidateCode1
+            开始时间：2016/12/17 11:57:40
+            结束时间：2016/12/17 11:57:40
+            总 时 间：9.8E-05秒
+            Form表单数据：
+            URL参数：ValidateCode=12511
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:40,659 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:CheckValidateCode1
+            开始时间：2016/12/17 11:57:40
+            结束时间：2016/12/17 11:57:40
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：ValidateCode=12511
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:44,168 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:LogOn
+            开始时间：2016/12/17 11:57:41
+            结束时间：2016/12/17 11:57:44
+            总 时 间：3.1421366秒
+            Form表单数据：UserRole=Administrator&UserId=Admin01&Password=123&ValidateCode=12511,
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:44,176 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:LogOn
+            开始时间：2016/12/17 11:57:44
+            结束时间：2016/12/17 11:57:44
+            总 时 间：0.008005秒
+            Form表单数据：UserRole=Administrator&UserId=Admin01&Password=123&ValidateCode=12511,
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:46,194 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:Index
+            开始时间：2016/12/17 11:57:44
+            结束时间：2016/12/17 11:57:46
+            总 时 间：1.9984574秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:47,431 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/17 11:57:47
+            结束时间：2016/12/17 11:57:47
+            总 时 间：0.1401354秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:47,432 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/17 11:57:47
+            结束时间：2016/12/17 11:57:47
+            总 时 间：0.0010003秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:47,433 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:Index
+            开始时间：2016/12/17 11:57:46
+            结束时间：2016/12/17 11:57:47
+            总 时 间：1.2398796秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:47,904 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetDefaultEndTime
+            开始时间：2016/12/17 11:57:47
+            结束时间：2016/12/17 11:57:47
+            总 时 间：0.06105秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:47,904 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetDefaultEndTime
+            开始时间：2016/12/17 11:57:47
+            结束时间：2016/12/17 11:57:47
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:50,519 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetDefaultEndTime
+            开始时间：2016/12/17 11:57:50
+            结束时间：2016/12/17 11:57:50
+            总 时 间：0.0470864秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:50,519 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetDefaultEndTime
+            开始时间：2016/12/17 11:57:50
+            结束时间：2016/12/17 11:57:50
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:57,115 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetPhoneNo
+            开始时间：2016/12/17 11:57:57
+            结束时间：2016/12/17 11:57:57
+            总 时 间：0.0571432秒
+            Form表单数据：
+            URL参数：UserId=U201611210002
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:57,116 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetPhoneNo
+            开始时间：2016/12/17 11:57:57
+            结束时间：2016/12/17 11:57:57
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201611210002
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:57,176 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetDoctorDetailInfo
+            开始时间：2016/12/17 11:57:57
+            结束时间：2016/12/17 11:57:57
+            总 时 间：0.0510723秒
+            Form表单数据：
+            URL参数：UserId=U201611210002&userClassCode=HealthCoach
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:57:57,176 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetDoctorDetailInfo
+            开始时间：2016/12/17 11:57:57
+            结束时间：2016/12/17 11:57:57
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201611210002&userClassCode=HealthCoach
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:03,488 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:checkPhoneNoExist
+            开始时间：2016/12/17 11:58:03
+            结束时间：2016/12/17 11:58:03
+            总 时 间：0.0400625秒
+            Form表单数据：
+            URL参数：PhoneNo=11455558556
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:03,488 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:checkPhoneNoExist
+            开始时间：2016/12/17 11:58:03
+            结束时间：2016/12/17 11:58:03
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：PhoneNo=11455558556
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:03,785 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:setCmMstUser
+            开始时间：2016/12/17 11:58:03
+            结束时间：2016/12/17 11:58:03
+            总 时 间：0.2882604秒
+            Form表单数据：
+            URL参数：UserId=U201611210002&UserName=&Password=&EndDate=2017-11-21&PhoneNo=11455558556&userClassCode=HealthCoach&NewFlag=0
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:03,785 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:setCmMstUser
+            开始时间：2016/12/17 11:58:03
+            结束时间：2016/12/17 11:58:03
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201611210002&UserName=&Password=&EndDate=2017-11-21&PhoneNo=11455558556&userClassCode=HealthCoach&NewFlag=0
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:03,867 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:setDocDetailInfo
+            开始时间：2016/12/17 11:58:03
+            结束时间：2016/12/17 11:58:03
+            总 时 间：0.0711141秒
+            Form表单数据：
+            URL参数：UserId=U201611210002&userClassCode=HealthCoach&UnitName=&Dept=4106&JobTitle=&Modules=
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:03,867 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:setDocDetailInfo
+            开始时间：2016/12/17 11:58:03
+            结束时间：2016/12/17 11:58:03
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201611210002&userClassCode=HealthCoach&UnitName=&Dept=4106&JobTitle=&Modules=
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:05,557 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:Index
+            开始时间：2016/12/17 11:58:03
+            结束时间：2016/12/17 11:58:05
+            总 时 间：1.6762735秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:05,975 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/17 11:58:05
+            结束时间：2016/12/17 11:58:05
+            总 时 间：0.1171146秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:05,976 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/17 11:58:05
+            结束时间：2016/12/17 11:58:05
+            总 时 间：0.0010007秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:05,978 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:Index
+            开始时间：2016/12/17 11:58:05
+            结束时间：2016/12/17 11:58:05
+            总 时 间：0.4193422秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:06,449 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetDefaultEndTime
+            开始时间：2016/12/17 11:58:06
+            结束时间：2016/12/17 11:58:06
+            总 时 间：0.0310308秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:06,449 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetDefaultEndTime
+            开始时间：2016/12/17 11:58:06
+            结束时间：2016/12/17 11:58:06
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:08,871 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetDefaultEndTime
+            开始时间：2016/12/17 11:58:08
+            结束时间：2016/12/17 11:58:08
+            总 时 间：0.0240355秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:08,871 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetDefaultEndTime
+            开始时间：2016/12/17 11:58:08
+            结束时间：2016/12/17 11:58:08
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:16,499 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetUIdByPhoneNo
+            开始时间：2016/12/17 11:58:16
+            结束时间：2016/12/17 11:58:16
+            总 时 间：0.0580404秒
+            Form表单数据：
+            URL参数：PhoneNo=17904941067
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:16,499 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetUIdByPhoneNo
+            开始时间：2016/12/17 11:58:16
+            结束时间：2016/12/17 11:58:16
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：PhoneNo=17904941067
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:20,859 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetRoleNo
+            开始时间：2016/12/17 11:58:20
+            结束时间：2016/12/17 11:58:20
+            总 时 间：0.0901617秒
+            Form表单数据：
+            URL参数：userClass=Doctor
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:20,859 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetRoleNo
+            开始时间：2016/12/17 11:58:20
+            结束时间：2016/12/17 11:58:20
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：userClass=Doctor
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:20,952 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetDoctorDetailInfo
+            开始时间：2016/12/17 11:58:20
+            结束时间：2016/12/17 11:58:20
+            总 时 间：0.0791259秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&userClassCode=Doctor
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:20,952 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetDoctorDetailInfo
+            开始时间：2016/12/17 11:58:20
+            结束时间：2016/12/17 11:58:20
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&userClassCode=Doctor
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:24,511 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:setCmMstUser
+            开始时间：2016/12/17 11:58:24
+            结束时间：2016/12/17 11:58:24
+            总 时 间：0.1991399秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&UserName=&Password=&EndDate=2017-12-17&PhoneNo=17904941067&userClassCode=Doctor&NewFlag=1
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:24,511 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:setCmMstUser
+            开始时间：2016/12/17 11:58:24
+            结束时间：2016/12/17 11:58:24
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&UserName=&Password=&EndDate=2017-12-17&PhoneNo=17904941067&userClassCode=Doctor&NewFlag=1
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:24,940 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:setDocDetailInfo
+            开始时间：2016/12/17 11:58:24
+            结束时间：2016/12/17 11:58:24
+            总 时 间：0.4153708秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&userClassCode=Doctor&UnitName=&Dept=&JobTitle=&Modules=
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:24,940 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:setDocDetailInfo
+            开始时间：2016/12/17 11:58:24
+            结束时间：2016/12/17 11:58:24
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&userClassCode=Doctor&UnitName=&Dept=&JobTitle=&Modules=
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:26,369 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:Index
+            开始时间：2016/12/17 11:58:24
+            结束时间：2016/12/17 11:58:26
+            总 时 间：1.4080905秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:27,159 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/17 11:58:27
+            结束时间：2016/12/17 11:58:27
+            总 时 间：0.0832167秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:27,159 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/17 11:58:27
+            结束时间：2016/12/17 11:58:27
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:27,160 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:Index
+            开始时间：2016/12/17 11:58:26
+            结束时间：2016/12/17 11:58:27
+            总 时 间：0.7911269秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:27,462 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetDefaultEndTime
+            开始时间：2016/12/17 11:58:27
+            结束时间：2016/12/17 11:58:27
+            总 时 间：0.018018秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:27,462 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetDefaultEndTime
+            开始时间：2016/12/17 11:58:27
+            结束时间：2016/12/17 11:58:27
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:37,396 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetPhoneNo
+            开始时间：2016/12/17 11:58:37
+            结束时间：2016/12/17 11:58:37
+            总 时 间：0.0260939秒
+            Form表单数据：
+            URL参数：UserId=U201612170001
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:37,396 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetPhoneNo
+            开始时间：2016/12/17 11:58:37
+            结束时间：2016/12/17 11:58:37
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201612170001
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:37,827 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetDoctorDetailInfo
+            开始时间：2016/12/17 11:58:37
+            结束时间：2016/12/17 11:58:37
+            总 时 间：0.3952805秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&userClassCode=Doctor
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:37,827 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetDoctorDetailInfo
+            开始时间：2016/12/17 11:58:37
+            结束时间：2016/12/17 11:58:37
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&userClassCode=Doctor
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:42,178 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:checkPhoneNoExist
+            开始时间：2016/12/17 11:58:42
+            结束时间：2016/12/17 11:58:42
+            总 时 间：0.0280826秒
+            Form表单数据：
+            URL参数：PhoneNo=17904941067
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:42,178 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:checkPhoneNoExist
+            开始时间：2016/12/17 11:58:42
+            结束时间：2016/12/17 11:58:42
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：PhoneNo=17904941067
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:42,623 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:setCmMstUser
+            开始时间：2016/12/17 11:58:42
+            结束时间：2016/12/17 11:58:42
+            总 时 间：0.4363785秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&UserName=&Password=&EndDate=2017-12-17&PhoneNo=17904941067&userClassCode=Doctor&NewFlag=0
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:42,624 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:setCmMstUser
+            开始时间：2016/12/17 11:58:42
+            结束时间：2016/12/17 11:58:42
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&UserName=&Password=&EndDate=2017-12-17&PhoneNo=17904941067&userClassCode=Doctor&NewFlag=0
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:42,751 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:setDocDetailInfo
+            开始时间：2016/12/17 11:58:42
+            结束时间：2016/12/17 11:58:42
+            总 时 间：0.1142658秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&userClassCode=Doctor&UnitName=HJZYY&Dept=&JobTitle=&Modules=
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:42,751 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:setDocDetailInfo
+            开始时间：2016/12/17 11:58:42
+            结束时间：2016/12/17 11:58:42
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&userClassCode=Doctor&UnitName=HJZYY&Dept=&JobTitle=&Modules=
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:43,839 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:Index
+            开始时间：2016/12/17 11:58:42
+            结束时间：2016/12/17 11:58:43
+            总 时 间：1.0668531秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:44,492 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/17 11:58:44
+            结束时间：2016/12/17 11:58:44
+            总 时 间：0.057086秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:44,493 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/17 11:58:44
+            结束时间：2016/12/17 11:58:44
+            总 时 间：0.0010004秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:44,494 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:Index
+            开始时间：2016/12/17 11:58:43
+            结束时间：2016/12/17 11:58:44
+            总 时 间：0.6544362秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:44,864 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetDefaultEndTime
+            开始时间：2016/12/17 11:58:44
+            结束时间：2016/12/17 11:58:44
+            总 时 间：0.0340343秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:44,864 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetDefaultEndTime
+            开始时间：2016/12/17 11:58:44
+            结束时间：2016/12/17 11:58:44
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:50,389 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetPhoneNo
+            开始时间：2016/12/17 11:58:50
+            结束时间：2016/12/17 11:58:50
+            总 时 间：0.0501168秒
+            Form表单数据：
+            URL参数：UserId=U201612170001
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:50,390 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetPhoneNo
+            开始时间：2016/12/17 11:58:50
+            结束时间：2016/12/17 11:58:50
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201612170001
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:50,545 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetDoctorDetailInfo
+            开始时间：2016/12/17 11:58:50
+            结束时间：2016/12/17 11:58:50
+            总 时 间：0.1211201秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&userClassCode=Doctor
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:50,545 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetDoctorDetailInfo
+            开始时间：2016/12/17 11:58:50
+            结束时间：2016/12/17 11:58:50
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&userClassCode=Doctor
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:54,935 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:checkPhoneNoExist
+            开始时间：2016/12/17 11:58:54
+            结束时间：2016/12/17 11:58:54
+            总 时 间：0.049081秒
+            Form表单数据：
+            URL参数：PhoneNo=17904941067
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:54,935 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:checkPhoneNoExist
+            开始时间：2016/12/17 11:58:54
+            结束时间：2016/12/17 11:58:54
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：PhoneNo=17904941067
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:55,085 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:setCmMstUser
+            开始时间：2016/12/17 11:58:54
+            结束时间：2016/12/17 11:58:55
+            总 时 间：0.1353086秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&UserName=&Password=&EndDate=2017-12-17&PhoneNo=17904941067&userClassCode=Doctor&NewFlag=0
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:55,086 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:setCmMstUser
+            开始时间：2016/12/17 11:58:55
+            结束时间：2016/12/17 11:58:55
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&UserName=&Password=&EndDate=2017-12-17&PhoneNo=17904941067&userClassCode=Doctor&NewFlag=0
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:55,206 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:setDocDetailInfo
+            开始时间：2016/12/17 11:58:55
+            结束时间：2016/12/17 11:58:55
+            总 时 间：0.108129秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&userClassCode=Doctor&UnitName=&Dept=211007&JobTitle=&Modules=
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:55,206 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:setDocDetailInfo
+            开始时间：2016/12/17 11:58:55
+            结束时间：2016/12/17 11:58:55
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&userClassCode=Doctor&UnitName=&Dept=211007&JobTitle=&Modules=
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:56,634 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:Index
+            开始时间：2016/12/17 11:58:55
+            结束时间：2016/12/17 11:58:56
+            总 时 间：1.4061828秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:56,962 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/17 11:58:56
+            结束时间：2016/12/17 11:58:56
+            总 时 间：0.0541107秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:56,963 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/17 11:58:56
+            结束时间：2016/12/17 11:58:56
+            总 时 间：0.0010019秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:56,963 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:Index
+            开始时间：2016/12/17 11:58:56
+            结束时间：2016/12/17 11:58:56
+            总 时 间：0.3292298秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:57,428 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetDefaultEndTime
+            开始时间：2016/12/17 11:58:57
+            结束时间：2016/12/17 11:58:57
+            总 时 间：0.0300562秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:58:57,428 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetDefaultEndTime
+            开始时间：2016/12/17 11:58:57
+            结束时间：2016/12/17 11:58:57
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:00,905 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetPhoneNo
+            开始时间：2016/12/17 11:59:00
+            结束时间：2016/12/17 11:59:00
+            总 时 间：0.0330958秒
+            Form表单数据：
+            URL参数：UserId=U201612170001
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:00,905 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetPhoneNo
+            开始时间：2016/12/17 11:59:00
+            结束时间：2016/12/17 11:59:00
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201612170001
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:01,035 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetDoctorDetailInfo
+            开始时间：2016/12/17 11:59:00
+            结束时间：2016/12/17 11:59:01
+            总 时 间：0.0960821秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&userClassCode=Doctor
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:01,035 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetDoctorDetailInfo
+            开始时间：2016/12/17 11:59:01
+            结束时间：2016/12/17 11:59:01
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&userClassCode=Doctor
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:03,616 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:checkPhoneNoExist
+            开始时间：2016/12/17 11:59:03
+            结束时间：2016/12/17 11:59:03
+            总 时 间：0.0260853秒
+            Form表单数据：
+            URL参数：PhoneNo=17904941067
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:03,616 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:checkPhoneNoExist
+            开始时间：2016/12/17 11:59:03
+            结束时间：2016/12/17 11:59:03
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：PhoneNo=17904941067
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:04,070 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:setCmMstUser
+            开始时间：2016/12/17 11:59:03
+            结束时间：2016/12/17 11:59:04
+            总 时 间：0.4473901秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&UserName=&Password=&EndDate=2017-12-17&PhoneNo=17904941067&userClassCode=Doctor&NewFlag=0
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:04,070 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:setCmMstUser
+            开始时间：2016/12/17 11:59:04
+            结束时间：2016/12/17 11:59:04
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&UserName=&Password=&EndDate=2017-12-17&PhoneNo=17904941067&userClassCode=Doctor&NewFlag=0
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:04,185 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:setDocDetailInfo
+            开始时间：2016/12/17 11:59:04
+            结束时间：2016/12/17 11:59:04
+            总 时 间：0.1012652秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&userClassCode=Doctor&UnitName=&Dept=211007&JobTitle=2&Modules=
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:04,185 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:setDocDetailInfo
+            开始时间：2016/12/17 11:59:04
+            结束时间：2016/12/17 11:59:04
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&userClassCode=Doctor&UnitName=&Dept=211007&JobTitle=2&Modules=
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:05,553 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:Index
+            开始时间：2016/12/17 11:59:04
+            结束时间：2016/12/17 11:59:05
+            总 时 间：1.3461052秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:05,910 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/17 11:59:05
+            结束时间：2016/12/17 11:59:05
+            总 时 间：0.0641461秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:05,910 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/17 11:59:05
+            结束时间：2016/12/17 11:59:05
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:05,911 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:Index
+            开始时间：2016/12/17 11:59:05
+            结束时间：2016/12/17 11:59:05
+            总 时 间：0.3584416秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:06,255 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetDefaultEndTime
+            开始时间：2016/12/17 11:59:06
+            结束时间：2016/12/17 11:59:06
+            总 时 间：0.0220754秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:06,255 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetDefaultEndTime
+            开始时间：2016/12/17 11:59:06
+            结束时间：2016/12/17 11:59:06
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:10,388 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetPhoneNo
+            开始时间：2016/12/17 11:59:10
+            结束时间：2016/12/17 11:59:10
+            总 时 间：0.0370301秒
+            Form表单数据：
+            URL参数：UserId=U201612170001
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:10,388 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetPhoneNo
+            开始时间：2016/12/17 11:59:10
+            结束时间：2016/12/17 11:59:10
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201612170001
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:10,508 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetDoctorDetailInfo
+            开始时间：2016/12/17 11:59:10
+            结束时间：2016/12/17 11:59:10
+            总 时 间：0.0881094秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&userClassCode=Doctor
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:10,508 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetDoctorDetailInfo
+            开始时间：2016/12/17 11:59:10
+            结束时间：2016/12/17 11:59:10
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&userClassCode=Doctor
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:11,907 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetDefaultEndTime
+            开始时间：2016/12/17 11:59:11
+            结束时间：2016/12/17 11:59:11
+            总 时 间：0.0290698秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:11,907 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetDefaultEndTime
+            开始时间：2016/12/17 11:59:11
+            结束时间：2016/12/17 11:59:11
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:34,210 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetPhoneNo
+            开始时间：2016/12/17 11:59:34
+            结束时间：2016/12/17 11:59:34
+            总 时 间：0.0340468秒
+            Form表单数据：
+            URL参数：UserId=U201611210007
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:34,210 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetPhoneNo
+            开始时间：2016/12/17 11:59:34
+            结束时间：2016/12/17 11:59:34
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201611210007
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:34,332 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetDoctorDetailInfo
+            开始时间：2016/12/17 11:59:34
+            结束时间：2016/12/17 11:59:34
+            总 时 间：0.0891275秒
+            Form表单数据：
+            URL参数：UserId=U201611210007&userClassCode=Doctor
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:34,332 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetDoctorDetailInfo
+            开始时间：2016/12/17 11:59:34
+            结束时间：2016/12/17 11:59:34
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201611210007&userClassCode=Doctor
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:37,571 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetDefaultEndTime
+            开始时间：2016/12/17 11:59:37
+            结束时间：2016/12/17 11:59:37
+            总 时 间：0.0300638秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:37,571 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetDefaultEndTime
+            开始时间：2016/12/17 11:59:37
+            结束时间：2016/12/17 11:59:37
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:38,500 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetPhoneNo
+            开始时间：2016/12/17 11:59:38
+            结束时间：2016/12/17 11:59:38
+            总 时 间：0.0621392秒
+            Form表单数据：
+            URL参数：UserId=U201612170001
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:38,500 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetPhoneNo
+            开始时间：2016/12/17 11:59:38
+            结束时间：2016/12/17 11:59:38
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201612170001
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:38,595 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetDoctorDetailInfo
+            开始时间：2016/12/17 11:59:38
+            结束时间：2016/12/17 11:59:38
+            总 时 间：0.0641124秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&userClassCode=Doctor
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:38,595 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetDoctorDetailInfo
+            开始时间：2016/12/17 11:59:38
+            结束时间：2016/12/17 11:59:38
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201612170001&userClassCode=Doctor
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:45,476 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetDefaultEndTime
+            开始时间：2016/12/17 11:59:45
+            结束时间：2016/12/17 11:59:45
+            总 时 间：0.0300646秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 11:59:45,476 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetDefaultEndTime
+            开始时间：2016/12/17 11:59:45
+            结束时间：2016/12/17 11:59:45
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 12:00:40,776 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetDefaultEndTime
+            开始时间：2016/12/17 12:00:40
+            结束时间：2016/12/17 12:00:40
+            总 时 间：0.057096秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 12:00:40,777 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetDefaultEndTime
+            开始时间：2016/12/17 12:00:40
+            结束时间：2016/12/17 12:00:40
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-17 12:00:43,912 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetPhoneNo
+            开始时间：2016/12/17 12:00:43
+            结束时间：2016/12/17 12:00:43
+            总 时 间：0.0490411秒
+            Form表单数据：
+            URL参数：UserId=U201611210001
+                    
+ 
+
+ 
+记录时间：2016-12-17 12:00:43,912 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetPhoneNo
+            开始时间：2016/12/17 12:00:43
+            结束时间：2016/12/17 12:00:43
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201611210001
+                    
+ 
+
+ 
+记录时间：2016-12-17 12:00:44,323 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetDoctorDetailInfo
+            开始时间：2016/12/17 12:00:43
+            结束时间：2016/12/17 12:00:44
+            总 时 间：0.3793503秒
+            Form表单数据：
+            URL参数：UserId=U201611210001&userClassCode=Doctor
+                    
+ 
+
+ 
+记录时间：2016-12-17 12:00:44,323 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetDoctorDetailInfo
+            开始时间：2016/12/17 12:00:44
+            结束时间：2016/12/17 12:00:44
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201611210001&userClassCode=Doctor
+                    
+ 

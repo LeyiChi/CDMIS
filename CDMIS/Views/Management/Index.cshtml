@@ -1095,10 +1095,23 @@
                                 location.reload();
                             }
                             else {
+                                //-------------------ZY 20161217------------------
                                 var clslist = document.getElementById("UnitName");
-                                var UnitName = clslist.options[clslist.selectedIndex].value;
+                                if (clslist.selectedIndex == -1) {      //未选择工作单位
+                                    var UnitName = "";
+                                }
+                                else {
+                                    var UnitName = clslist.options[clslist.selectedIndex].value;
+                                }
                                 var clslist = document.getElementById("Dept");
-                                var Dept = clslist.options[clslist.selectedIndex].value;
+                                if (clslist.selectedIndex == -1) {      //未选择科室
+                                    var Dept = "";
+                                }
+                                else {
+                                    var Dept = clslist.options[clslist.selectedIndex].value;
+                                }
+                                //-------------------end edit-----------------------
+
                                 var JobTitle = document.getElementById("JobTitle").value;
 
                                 //alert(PhoneNo);
@@ -1208,10 +1221,22 @@
                             location.reload();
                         }
                         else {
+                            //-------------------ZY 20161217------------------
                             var clslist = document.getElementById("UnitName");
-                            var UnitName = clslist.options[clslist.selectedIndex].value;
+                            if (clslist.selectedIndex == -1) {      //未选择工作单位
+                                var UnitName = "";
+                            }
+                            else {
+                                var UnitName = clslist.options[clslist.selectedIndex].value;
+                            }
                             var clslist = document.getElementById("Dept");
-                            var Dept = clslist.options[clslist.selectedIndex].value;
+                            if (clslist.selectedIndex == -1) {      //未选择科室
+                                var Dept = "";
+                            }
+                            else {
+                                var Dept = clslist.options[clslist.selectedIndex].value;
+                            }
+                            //-------------------end edit-----------------------
                             var JobTitle = document.getElementById("JobTitle").value;
 
                             //alert(PhoneNo);
@@ -1320,10 +1345,22 @@
                             location.reload();
                         }
                         else {
+                            //-------------------ZY 20161217------------------
                             var clslist = document.getElementById("UnitName");
-                            var UnitName = clslist.options[clslist.selectedIndex].value;
+                            if (clslist.selectedIndex == -1) {      //未选择工作单位
+                                var UnitName = "";
+                            }
+                            else {
+                                var UnitName = clslist.options[clslist.selectedIndex].value;
+                            }
                             var clslist = document.getElementById("Dept");
-                            var Dept = clslist.options[clslist.selectedIndex].value;
+                            if (clslist.selectedIndex == -1) {      //未选择科室
+                                var Dept = "";
+                            }
+                            else {
+                                var Dept = clslist.options[clslist.selectedIndex].value;
+                            }
+                            //-------------------end edit-----------------------
                             var JobTitle = document.getElementById("JobTitle").value;
 
                             //alert(PhoneNo);
