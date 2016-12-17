@@ -211,6 +211,5 @@ C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\bin\Newtonsoft.Json.
 C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\bin\Newtonsoft.Json.xml
 C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\bin\System.Net.Http.xml
 C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\bin\zh-Hans\System.Net.Http.resources.dll
-C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\obj\Debug\CDMIS.csprojResolveAssemblyReference.cache
 C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\obj\Debug\CDMIS.dll
 C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\obj\Debug\CDMIS.pdb
