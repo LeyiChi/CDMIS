@@ -198,3 +198,19 @@ E:\Work\chronic disease management\github\CDMIS\CDMIS\bin\zh-Hans\System.Net.Htt
 E:\Work\chronic disease management\github\CDMIS\CDMIS\obj\Debug\CDMIS.csprojResolveAssemblyReference.cache
 E:\Work\chronic disease management\github\CDMIS\CDMIS\obj\Debug\CDMIS.dll
 E:\Work\chronic disease management\github\CDMIS\CDMIS\obj\Debug\CDMIS.pdb
+C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\bin\CDMIS.dll.config
+C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\bin\CDMIS.dll
+C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\bin\CDMIS.pdb
+C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\bin\EntityFramework.dll
+C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\bin\log4net.dll
+C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\bin\Newtonsoft.Json.dll
+C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\bin\System.Net.Http.dll
+C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\bin\EntityFramework.xml
+C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\bin\log4net.xml
+C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\bin\Newtonsoft.Json.pdb
+C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\bin\Newtonsoft.Json.xml
+C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\bin\System.Net.Http.xml
+C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\bin\zh-Hans\System.Net.Http.resources.dll
+C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\obj\Debug\CDMIS.csprojResolveAssemblyReference.cache
+C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\obj\Debug\CDMIS.dll
+C:\Users\BME319\Desktop\慢病管理\git_WebBug\CDMIS\CDMIS\obj\Debug\CDMIS.pdb
