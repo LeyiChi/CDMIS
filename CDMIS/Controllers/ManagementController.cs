@@ -827,13 +827,13 @@ namespace CDMIS.Controllers
         public JsonResult SetActivationCodeJson(string UserId, string RoleClass, string ActivationCode, string InvalidFlag, string PhoneNo)
         {
             string ActivateState = "";
-            if (InvalidFlag == "已激活")
+            if (InvalidFlag == "确认")   //ZY 20161217
             {
                 ActivateState = "0";
             }
             else
             {
-                ActivateState = "1";
+                ActivateState = "2";   //ZY 20161217
             }
             var res = new JsonResult();
             int Ret = 0;
