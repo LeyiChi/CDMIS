@@ -104,7 +104,7 @@ namespace CDMIS.Controllers
 
                 System.IO.File.WriteAllText(dir + newhe.news.Path.Substring(1).Replace("/", "\\"), temp, Encoding.GetEncoding("UTF-8"));
                 newhe.news.Author = user.UserId;
-                //
+                newhe.news.Id = "";    //ZY 20161217
 
                 //保存数据
                 hostAddress = Request.ServerVariables.Get("Local_Addr").ToString();

@@ -634,6 +634,8 @@
     <Content Include="Views\DoctorHome\QuestionDoctor.cshtml" />
     <Content Include="Views\Management\ImportPatient.cshtml" />
     <Content Include="Views\DoctorHome\HistoryRecord.cshtml" />
+    <Content Include="Views\Dict\Task.cshtml" />
+    <Content Include="Views\Dict\Insurance.cshtml" />
     <None Include="Web References\WebReferenceJC\Bs.wsdl" />
     <None Include="Web References\WebReferenceJC\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
