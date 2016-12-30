@@ -625,6 +625,8 @@ namespace CDMIS.ViewModels
         {
             List<SelectListItem> DeptList = new List<SelectListItem>();
             DataTable dt = _ServicesSoapClient.GetDivision().Tables[0];
+            //pxy 2016-12-1 请选择
+            DeptList.Add(new SelectListItem { Text = "请选择科室", Value = "" });
             foreach (DataRow dr in dt.Rows)
             {
                 DeptList.Add(new SelectListItem { Text = dr["Name"].ToString(), Value = dr["Code"].ToString() });
