@@ -1,0 +1,3552 @@
+
+ 
+记录时间：2016-12-30 16:28:15,829 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:LogOn
+            开始时间：2016/12/30 16:28:15
+            结束时间：2016/12/30 16:28:15
+            总 时 间：0.0265464秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:28:20,249 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:28:20
+            结束时间：2016/12/30 16:28:20
+            总 时 间：0.0050515秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:28:21,490 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:28:20
+            结束时间：2016/12/30 16:28:21
+            总 时 间：1.2146839秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:28:21,494 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:LogOn
+            开始时间：2016/12/30 16:28:15
+            结束时间：2016/12/30 16:28:21
+            总 时 间：5.6435923秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:28:21,969 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:GetValidateCode1
+            开始时间：2016/12/30 16:28:21
+            结束时间：2016/12/30 16:28:21
+            总 时 间：0.0225238秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:28:21,970 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:GetValidateCode1
+            开始时间：2016/12/30 16:28:21
+            结束时间：2016/12/30 16:28:21
+            总 时 间：0.0005007秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:28:22,276 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:GetValidateCode1
+            开始时间：2016/12/30 16:28:22
+            结束时间：2016/12/30 16:28:22
+            总 时 间：0.0020212秒
+            Form表单数据：
+            URL参数：time=1483086502157
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:28:22,441 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:GetValidateCode1
+            开始时间：2016/12/30 16:28:22
+            结束时间：2016/12/30 16:28:22
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：time=1483086502157
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:29:18,103 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:CheckValidateCode1
+            开始时间：2016/12/30 16:29:18
+            结束时间：2016/12/30 16:29:18
+            总 时 间：0.0020633秒
+            Form表单数据：
+            URL参数：ValidateCode=54544
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:29:18,115 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:CheckValidateCode1
+            开始时间：2016/12/30 16:29:18
+            结束时间：2016/12/30 16:29:18
+            总 时 间：0.01201秒
+            Form表单数据：
+            URL参数：ValidateCode=54544
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:29:34,377 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:LogOn
+            开始时间：2016/12/30 16:29:19
+            结束时间：2016/12/30 16:29:34
+            总 时 间：14.8081673秒
+            Form表单数据：UserRole=Administrator&UserId=Admin01&Password=123&ValidateCode=54544,
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:29:34,418 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:LogOn
+            开始时间：2016/12/30 16:29:34
+            结束时间：2016/12/30 16:29:34
+            总 时 间：0.0395341秒
+            Form表单数据：UserRole=Administrator&UserId=Admin01&Password=123&ValidateCode=54544,
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:29:35,793 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:Index
+            开始时间：2016/12/30 16:29:34
+            结束时间：2016/12/30 16:29:35
+            总 时 间：1.3536853秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:29:39,113 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:29:38
+            结束时间：2016/12/30 16:29:39
+            总 时 间：0.6100502秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:29:39,118 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:29:39
+            结束时间：2016/12/30 16:29:39
+            总 时 间：0.0050057秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:29:39,120 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:Index
+            开始时间：2016/12/30 16:29:35
+            结束时间：2016/12/30 16:29:39
+            总 时 间：3.3267711秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:29:40,054 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ManagementController
+            ActionName:GetDefaultEndTime
+            开始时间：2016/12/30 16:29:39
+            结束时间：2016/12/30 16:29:40
+            总 时 间：0.2722572秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:29:40,055 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ManagementController
+            ViewName:GetDefaultEndTime
+            开始时间：2016/12/30 16:29:40
+            结束时间：2016/12/30 16:29:40
+            总 时 间：0.000502秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:29:47,071 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DictController
+            ActionName:Index
+            开始时间：2016/12/30 16:29:47
+            结束时间：2016/12/30 16:29:47
+            总 时 间：0.0010882秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:29:52,387 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:29:51
+            结束时间：2016/12/30 16:29:52
+            总 时 间：0.4299131秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:29:52,389 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:29:52
+            结束时间：2016/12/30 16:29:52
+            总 时 间：0.0015011秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:29:52,389 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DictController
+            ViewName:Index
+            开始时间：2016/12/30 16:29:47
+            结束时间：2016/12/30 16:29:52
+            总 时 间：5.3180269秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:29:52,650 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DictController
+            ActionName:InfoItemCategory
+            开始时间：2016/12/30 16:29:52
+            结束时间：2016/12/30 16:29:52
+            总 时 间：0.0856614秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:29:52,911 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DictController
+            ViewName:InfoItemCategory
+            开始时间：2016/12/30 16:29:52
+            结束时间：2016/12/30 16:29:52
+            总 时 间：0.2607316秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:01,015 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:LogOff
+            开始时间：2016/12/30 16:30:01
+            结束时间：2016/12/30 16:30:01
+            总 时 间：0.0010227秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:01,043 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:LogOff
+            开始时间：2016/12/30 16:30:01
+            结束时间：2016/12/30 16:30:01
+            总 时 间：0.0280253秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:01,059 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:LogOn
+            开始时间：2016/12/30 16:30:01
+            结束时间：2016/12/30 16:30:01
+            总 时 间：5.9E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:01,065 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:30:01
+            结束时间：2016/12/30 16:30:01
+            总 时 间：6.45E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:01,066 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:30:01
+            结束时间：2016/12/30 16:30:01
+            总 时 间：0.0009987秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:01,066 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:LogOn
+            开始时间：2016/12/30 16:30:01
+            结束时间：2016/12/30 16:30:01
+            总 时 间：0.0065062秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:01,123 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:GetValidateCode1
+            开始时间：2016/12/30 16:30:01
+            结束时间：2016/12/30 16:30:01
+            总 时 间：0.0030181秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:01,123 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:GetValidateCode1
+            开始时间：2016/12/30 16:30:01
+            结束时间：2016/12/30 16:30:01
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:01,288 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:GetValidateCode1
+            开始时间：2016/12/30 16:30:01
+            结束时间：2016/12/30 16:30:01
+            总 时 间：0.0030521秒
+            Form表单数据：
+            URL参数：time=1483086601269
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:01,288 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:GetValidateCode1
+            开始时间：2016/12/30 16:30:01
+            结束时间：2016/12/30 16:30:01
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：time=1483086601269
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:09,772 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:CheckValidateCode1
+            开始时间：2016/12/30 16:30:09
+            结束时间：2016/12/30 16:30:09
+            总 时 间：6.87E-05秒
+            Form表单数据：
+            URL参数：ValidateCode=54323
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:09,772 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:CheckValidateCode1
+            开始时间：2016/12/30 16:30:09
+            结束时间：2016/12/30 16:30:09
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：ValidateCode=54323
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:10,266 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:LogOn
+            开始时间：2016/12/30 16:30:10
+            结束时间：2016/12/30 16:30:10
+            总 时 间：0.1741909秒
+            Form表单数据：UserRole=HealthCoach&UserId=Admin01&Password=123&ValidateCode=54323,
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:10,272 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:30:10
+            结束时间：2016/12/30 16:30:10
+            总 时 间：9.57E-05秒
+            Form表单数据：UserRole=HealthCoach&UserId=Admin01&Password=123&ValidateCode=54323,
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:10,273 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:30:10
+            结束时间：2016/12/30 16:30:10
+            总 时 间：0.0010014秒
+            Form表单数据：UserRole=HealthCoach&UserId=Admin01&Password=123&ValidateCode=54323,
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:10,273 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:LogOn
+            开始时间：2016/12/30 16:30:10
+            结束时间：2016/12/30 16:30:10
+            总 时 间：0.0070065秒
+            Form表单数据：UserRole=HealthCoach&UserId=Admin01&Password=123&ValidateCode=54323,
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:10,637 
+线程ID:[10] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:CheckValidateCode1
+            开始时间：2016/12/30 16:30:10
+            结束时间：2016/12/30 16:30:10
+            总 时 间：7.4E-06秒
+            Form表单数据：
+            URL参数：ValidateCode=54323
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:10,637 
+线程ID:[10] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:CheckValidateCode1
+            开始时间：2016/12/30 16:30:10
+            结束时间：2016/12/30 16:30:10
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：ValidateCode=54323
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:10,690 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:GetValidateCode1
+            开始时间：2016/12/30 16:30:10
+            结束时间：2016/12/30 16:30:10
+            总 时 间：0.0015528秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:10,690 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:GetValidateCode1
+            开始时间：2016/12/30 16:30:10
+            结束时间：2016/12/30 16:30:10
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:10,848 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:GetValidateCode1
+            开始时间：2016/12/30 16:30:10
+            结束时间：2016/12/30 16:30:10
+            总 时 间：0.0020923秒
+            Form表单数据：
+            URL参数：time=1483086610830
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:10,848 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:GetValidateCode1
+            开始时间：2016/12/30 16:30:10
+            结束时间：2016/12/30 16:30:10
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：time=1483086610830
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:19,501 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:CheckValidateCode1
+            开始时间：2016/12/30 16:30:19
+            结束时间：2016/12/30 16:30:19
+            总 时 间：0.0005619秒
+            Form表单数据：
+            URL参数：ValidateCode=86528
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:19,501 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:CheckValidateCode1
+            开始时间：2016/12/30 16:30:19
+            结束时间：2016/12/30 16:30:19
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：ValidateCode=86528
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:19,997 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:LogOn
+            开始时间：2016/12/30 16:30:19
+            结束时间：2016/12/30 16:30:19
+            总 时 间：0.1692324秒
+            Form表单数据：UserRole=Doctor&UserId=Admin01&Password=123&ValidateCode=86528,54323
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:20,001 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:30:20
+            结束时间：2016/12/30 16:30:20
+            总 时 间：0.0005361秒
+            Form表单数据：UserRole=Doctor&UserId=Admin01&Password=123&ValidateCode=86528,54323
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:20,002 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:30:20
+            结束时间：2016/12/30 16:30:20
+            总 时 间：0.0010007秒
+            Form表单数据：UserRole=Doctor&UserId=Admin01&Password=123&ValidateCode=86528,54323
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:20,002 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:LogOn
+            开始时间：2016/12/30 16:30:19
+            结束时间：2016/12/30 16:30:20
+            总 时 间：0.0045038秒
+            Form表单数据：UserRole=Doctor&UserId=Admin01&Password=123&ValidateCode=86528,54323
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:20,394 
+线程ID:[37] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:CheckValidateCode1
+            开始时间：2016/12/30 16:30:20
+            结束时间：2016/12/30 16:30:20
+            总 时 间：7.39E-05秒
+            Form表单数据：
+            URL参数：ValidateCode=86528
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:20,394 
+线程ID:[37] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:CheckValidateCode1
+            开始时间：2016/12/30 16:30:20
+            结束时间：2016/12/30 16:30:20
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：ValidateCode=86528
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:20,449 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:GetValidateCode1
+            开始时间：2016/12/30 16:30:20
+            结束时间：2016/12/30 16:30:20
+            总 时 间：0.0020191秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:20,449 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:GetValidateCode1
+            开始时间：2016/12/30 16:30:20
+            结束时间：2016/12/30 16:30:20
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:20,596 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:GetValidateCode1
+            开始时间：2016/12/30 16:30:20
+            结束时间：2016/12/30 16:30:20
+            总 时 间：0.0020451秒
+            Form表单数据：
+            URL参数：time=1483086620578
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:30:20,596 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:GetValidateCode1
+            开始时间：2016/12/30 16:30:20
+            结束时间：2016/12/30 16:30:20
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：time=1483086620578
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:31:34,772 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:CheckValidateCode1
+            开始时间：2016/12/30 16:31:34
+            结束时间：2016/12/30 16:31:34
+            总 时 间：2.99E-05秒
+            Form表单数据：
+            URL参数：ValidateCode=23086
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:31:34,772 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:CheckValidateCode1
+            开始时间：2016/12/30 16:31:34
+            结束时间：2016/12/30 16:31:34
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：ValidateCode=23086
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:31:35,204 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:LogOn
+            开始时间：2016/12/30 16:31:35
+            结束时间：2016/12/30 16:31:35
+            总 时 间：0.1676922秒
+            Form表单数据：UserRole=HealthCoach&UserId=18600310463&Password=123456&ValidateCode=23086,86528
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:31:35,210 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:31:35
+            结束时间：2016/12/30 16:31:35
+            总 时 间：0.0005982秒
+            Form表单数据：UserRole=HealthCoach&UserId=18600310463&Password=123456&ValidateCode=23086,86528
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:31:35,212 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:31:35
+            结束时间：2016/12/30 16:31:35
+            总 时 间：0.0019997秒
+            Form表单数据：UserRole=HealthCoach&UserId=18600310463&Password=123456&ValidateCode=23086,86528
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:31:35,212 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:LogOn
+            开始时间：2016/12/30 16:31:35
+            结束时间：2016/12/30 16:31:35
+            总 时 间：0.0080051秒
+            Form表单数据：UserRole=HealthCoach&UserId=18600310463&Password=123456&ValidateCode=23086,86528
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:31:35,566 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:CheckValidateCode1
+            开始时间：2016/12/30 16:31:35
+            结束时间：2016/12/30 16:31:35
+            总 时 间：9.78E-05秒
+            Form表单数据：
+            URL参数：ValidateCode=23086
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:31:35,566 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:CheckValidateCode1
+            开始时间：2016/12/30 16:31:35
+            结束时间：2016/12/30 16:31:35
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：ValidateCode=23086
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:31:35,632 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:GetValidateCode1
+            开始时间：2016/12/30 16:31:35
+            结束时间：2016/12/30 16:31:35
+            总 时 间：0.0020534秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:31:35,633 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:GetValidateCode1
+            开始时间：2016/12/30 16:31:35
+            结束时间：2016/12/30 16:31:35
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:31:35,838 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:GetValidateCode1
+            开始时间：2016/12/30 16:31:35
+            结束时间：2016/12/30 16:31:35
+            总 时 间：0.0015345秒
+            Form表单数据：
+            URL参数：time=1483086695821
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:31:35,838 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:GetValidateCode1
+            开始时间：2016/12/30 16:31:35
+            结束时间：2016/12/30 16:31:35
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：time=1483086695821
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:32:09,317 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:CheckValidateCode1
+            开始时间：2016/12/30 16:32:09
+            结束时间：2016/12/30 16:32:09
+            总 时 间：4.6E-06秒
+            Form表单数据：
+            URL参数：ValidateCode=16934
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:32:09,318 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:CheckValidateCode1
+            开始时间：2016/12/30 16:32:09
+            结束时间：2016/12/30 16:32:09
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：ValidateCode=16934
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:32:10,857 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:LogOn
+            开始时间：2016/12/30 16:32:10
+            结束时间：2016/12/30 16:32:10
+            总 时 间：0.1396693秒
+            Form表单数据：UserRole=Doctor&UserId=18600310463&Password=123456&ValidateCode=16934,23086
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:32:10,861 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:32:10
+            结束时间：2016/12/30 16:32:10
+            总 时 间：7.2E-05秒
+            Form表单数据：UserRole=Doctor&UserId=18600310463&Password=123456&ValidateCode=16934,23086
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:32:10,862 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:32:10
+            结束时间：2016/12/30 16:32:10
+            总 时 间：0.0010013秒
+            Form表单数据：UserRole=Doctor&UserId=18600310463&Password=123456&ValidateCode=16934,23086
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:32:10,862 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:LogOn
+            开始时间：2016/12/30 16:32:10
+            结束时间：2016/12/30 16:32:10
+            总 时 间：0.005004秒
+            Form表单数据：UserRole=Doctor&UserId=18600310463&Password=123456&ValidateCode=16934,23086
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:32:10,915 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:GetValidateCode1
+            开始时间：2016/12/30 16:32:10
+            结束时间：2016/12/30 16:32:10
+            总 时 间：0.0015175秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:32:10,915 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:GetValidateCode1
+            开始时间：2016/12/30 16:32:10
+            结束时间：2016/12/30 16:32:10
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:32:11,125 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:GetValidateCode1
+            开始时间：2016/12/30 16:32:11
+            结束时间：2016/12/30 16:32:11
+            总 时 间：0.0015927秒
+            Form表单数据：
+            URL参数：time=1483086731110
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:32:11,125 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:GetValidateCode1
+            开始时间：2016/12/30 16:32:11
+            结束时间：2016/12/30 16:32:11
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：time=1483086731110
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:06,007 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:CheckValidateCode1
+            开始时间：2016/12/30 16:33:06
+            结束时间：2016/12/30 16:33:06
+            总 时 间：5.52E-05秒
+            Form表单数据：
+            URL参数：ValidateCode=78495
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:06,007 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:CheckValidateCode1
+            开始时间：2016/12/30 16:33:06
+            结束时间：2016/12/30 16:33:06
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：ValidateCode=78495
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:07,798 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:LogOn
+            开始时间：2016/12/30 16:33:07
+            结束时间：2016/12/30 16:33:07
+            总 时 间：0.6195432秒
+            Form表单数据：UserRole=HealthCoach&UserId=15088699927&Password=123456&ValidateCode=78495,16934
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:07,821 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:LogOn
+            开始时间：2016/12/30 16:33:07
+            结束时间：2016/12/30 16:33:07
+            总 时 间：0.0230193秒
+            Form表单数据：UserRole=HealthCoach&UserId=15088699927&Password=123456&ValidateCode=78495,16934
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:08,086 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:HealthCoachPatientList
+            开始时间：2016/12/30 16:33:08
+            结束时间：2016/12/30 16:33:08
+            总 时 间：0.0659011秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:13,073 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:33:12
+            结束时间：2016/12/30 16:33:13
+            总 时 间：0.1482484秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:13,076 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:33:13
+            结束时间：2016/12/30 16:33:13
+            总 时 间：0.0025023秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:13,076 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:HealthCoachPatientList
+            开始时间：2016/12/30 16:33:08
+            结束时间：2016/12/30 16:33:13
+            总 时 间：4.9908503秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:29,674 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:BasicProfile
+            开始时间：2016/12/30 16:33:29
+            结束时间：2016/12/30 16:33:29
+            总 时 间：0.1741741秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:34,865 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:33:34
+            结束时间：2016/12/30 16:33:34
+            总 时 间：0.3827298秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:34,866 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:33:34
+            结束时间：2016/12/30 16:33:34
+            总 时 间：0.0015013秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:34,867 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:BasicProfile
+            开始时间：2016/12/30 16:33:29
+            结束时间：2016/12/30 16:33:34
+            总 时 间：5.192957秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:42,648 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:checkPhoneNoRepeat
+            开始时间：2016/12/30 16:33:42
+            结束时间：2016/12/30 16:33:42
+            总 时 间：0.0706353秒
+            Form表单数据：
+            URL参数：PhoneNo=17858610572
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:42,648 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:checkPhoneNoRepeat
+            开始时间：2016/12/30 16:33:42
+            结束时间：2016/12/30 16:33:42
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：PhoneNo=17858610572
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:42,775 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:GetIDByPhoneNo
+            开始时间：2016/12/30 16:33:42
+            结束时间：2016/12/30 16:33:42
+            总 时 间：0.0405415秒
+            Form表单数据：
+            URL参数：PhoneNo=17858610572
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:42,775 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:GetIDByPhoneNo
+            开始时间：2016/12/30 16:33:42
+            结束时间：2016/12/30 16:33:42
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：PhoneNo=17858610572
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:42,856 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:GetRolesByUserId
+            开始时间：2016/12/30 16:33:42
+            结束时间：2016/12/30 16:33:42
+            总 时 间：0.0311096秒
+            Form表单数据：
+            URL参数：UserId=U201609260001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:42,879 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:GetRolesByUserId
+            开始时间：2016/12/30 16:33:42
+            结束时间：2016/12/30 16:33:42
+            总 时 间：0.0225245秒
+            Form表单数据：
+            URL参数：UserId=U201609260001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:43,248 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:BasicProfile
+            开始时间：2016/12/30 16:33:42
+            结束时间：2016/12/30 16:33:43
+            总 时 间：0.3101339秒
+            Form表单数据：
+            URL参数：PatientId=U201609260001&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:43,483 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:33:43
+            结束时间：2016/12/30 16:33:43
+            总 时 间：0.080886秒
+            Form表单数据：
+            URL参数：PatientId=U201609260001&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:43,484 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:33:43
+            结束时间：2016/12/30 16:33:43
+            总 时 间：0.0015013秒
+            Form表单数据：
+            URL参数：PatientId=U201609260001&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:43,485 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:BasicProfile
+            开始时间：2016/12/30 16:33:43
+            结束时间：2016/12/30 16:33:43
+            总 时 间：0.2365534秒
+            Form表单数据：
+            URL参数：PatientId=U201609260001&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:43,700 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:GetPhoneNoByUserId
+            开始时间：2016/12/30 16:33:43
+            结束时间：2016/12/30 16:33:43
+            总 时 间：0.027601秒
+            Form表单数据：
+            URL参数：UserId=U201609260001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:43,700 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:GetPhoneNoByUserId
+            开始时间：2016/12/30 16:33:43
+            结束时间：2016/12/30 16:33:43
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201609260001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:45,690 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:HealthCoachPatientList
+            开始时间：2016/12/30 16:33:45
+            结束时间：2016/12/30 16:33:45
+            总 时 间：0.0614457秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:46,166 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:33:46
+            结束时间：2016/12/30 16:33:46
+            总 时 间：0.0796347秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:46,167 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:33:46
+            结束时间：2016/12/30 16:33:46
+            总 时 间：0.0014947秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:46,168 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:HealthCoachPatientList
+            开始时间：2016/12/30 16:33:45
+            结束时间：2016/12/30 16:33:46
+            总 时 间：0.4768841秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:55,035 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:BasicProfile
+            开始时间：2016/12/30 16:33:54
+            结束时间：2016/12/30 16:33:55
+            总 时 间：0.128103秒
+            Form表单数据：
+            URL参数：PatientId=U201612300001&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:55,294 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:33:55
+            结束时间：2016/12/30 16:33:55
+            总 时 间：0.1031694秒
+            Form表单数据：
+            URL参数：PatientId=U201612300001&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:55,295 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:33:55
+            结束时间：2016/12/30 16:33:55
+            总 时 间：0.001501秒
+            Form表单数据：
+            URL参数：PatientId=U201612300001&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:33:55,296 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:BasicProfile
+            开始时间：2016/12/30 16:33:55
+            结束时间：2016/12/30 16:33:55
+            总 时 间：0.2602658秒
+            Form表单数据：
+            URL参数：PatientId=U201612300001&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:02,154 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:GetPhoneNoByUserId
+            开始时间：2016/12/30 16:34:02
+            结束时间：2016/12/30 16:34:02
+            总 时 间：0.0450625秒
+            Form表单数据：
+            URL参数：UserId=U201612300001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:02,154 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:GetPhoneNoByUserId
+            开始时间：2016/12/30 16:34:02
+            结束时间：2016/12/30 16:34:02
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201612300001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:02,950 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:HealthCoachPatientList
+            开始时间：2016/12/30 16:34:02
+            结束时间：2016/12/30 16:34:02
+            总 时 间：0.3723416秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:03,416 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:34:03
+            结束时间：2016/12/30 16:34:03
+            总 时 间：0.3994279秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:03,418 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:34:03
+            结束时间：2016/12/30 16:34:03
+            总 时 间：0.001501秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:03,418 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:HealthCoachPatientList
+            开始时间：2016/12/30 16:34:02
+            结束时间：2016/12/30 16:34:03
+            总 时 间：0.4678876秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:08,521 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:BasicProfile
+            开始时间：2016/12/30 16:34:08
+            结束时间：2016/12/30 16:34:08
+            总 时 间：0.1256096秒
+            Form表单数据：
+            URL参数：PatientId=U201612210001&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:08,735 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:34:08
+            结束时间：2016/12/30 16:34:08
+            总 时 间：0.0754014秒
+            Form表单数据：
+            URL参数：PatientId=U201612210001&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:08,737 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:34:08
+            结束时间：2016/12/30 16:34:08
+            总 时 间：0.0015014秒
+            Form表单数据：
+            URL参数：PatientId=U201612210001&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:08,737 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:BasicProfile
+            开始时间：2016/12/30 16:34:08
+            结束时间：2016/12/30 16:34:08
+            总 时 间：0.2159932秒
+            Form表单数据：
+            URL参数：PatientId=U201612210001&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:09,576 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:GetPhoneNoByUserId
+            开始时间：2016/12/30 16:34:09
+            结束时间：2016/12/30 16:34:09
+            总 时 间：0.34431秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:09,577 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:GetPhoneNoByUserId
+            开始时间：2016/12/30 16:34:09
+            结束时间：2016/12/30 16:34:09
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:23,366 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:BasicProfile
+            开始时间：2016/12/30 16:34:22
+            结束时间：2016/12/30 16:34:23
+            总 时 间：0.6826371秒
+            Form表单数据：PhoneNo=13582525252&Patient.UserId=U201612210001&Patient.HospitalCode=HJZYY&Patient.HospitalId=&Patient.UserName=出差&Patient.Gender=1&Patient.Birthday=20161202&Patient.BloodType=0&Patient.InsuranceType=0&Patient.IDNo=&Phone=17858610572&Address=&Occupation=&Nationality=&EmergencyContact=&EmergencyContactNumber=17858610572
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:23,388 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:BasicProfile
+            开始时间：2016/12/30 16:34:23
+            结束时间：2016/12/30 16:34:23
+            总 时 间：0.0225189秒
+            Form表单数据：PhoneNo=13582525252&Patient.UserId=U201612210001&Patient.HospitalCode=HJZYY&Patient.HospitalId=&Patient.UserName=出差&Patient.Gender=1&Patient.Birthday=20161202&Patient.BloodType=0&Patient.InsuranceType=0&Patient.IDNo=&Phone=17858610572&Address=&Occupation=&Nationality=&EmergencyContact=&EmergencyContactNumber=17858610572
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:23,624 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:ClinicalInfo
+            开始时间：2016/12/30 16:34:23
+            结束时间：2016/12/30 16:34:23
+            总 时 间：0.1526505秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:27,790 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PatientInfoController
+            ActionName:PatientBasicInfo
+            开始时间：2016/12/30 16:34:27
+            结束时间：2016/12/30 16:34:27
+            总 时 间：0.1677838秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:30,853 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PatientInfoController
+            ViewName:PatientBasicInfo
+            开始时间：2016/12/30 16:34:27
+            结束时间：2016/12/30 16:34:30
+            总 时 间：3.0626179秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:32,466 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:34:32
+            结束时间：2016/12/30 16:34:32
+            总 时 间：0.0751426秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:32,468 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:34:32
+            结束时间：2016/12/30 16:34:32
+            总 时 间：0.001501秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:32,469 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:ClinicalInfo
+            开始时间：2016/12/30 16:34:23
+            结束时间：2016/12/30 16:34:32
+            总 时 间：8.8442934秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:48,684 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:BasicProfile
+            开始时间：2016/12/30 16:34:48
+            结束时间：2016/12/30 16:34:48
+            总 时 间：0.1324254秒
+            Form表单数据：
+            URL参数：PatientId=U201612210001&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:48,916 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:34:48
+            结束时间：2016/12/30 16:34:48
+            总 时 间：0.081116秒
+            Form表单数据：
+            URL参数：PatientId=U201612210001&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:48,917 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:34:48
+            结束时间：2016/12/30 16:34:48
+            总 时 间：0.0010006秒
+            Form表单数据：
+            URL参数：PatientId=U201612210001&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:48,918 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:BasicProfile
+            开始时间：2016/12/30 16:34:48
+            结束时间：2016/12/30 16:34:48
+            总 时 间：0.2341923秒
+            Form表单数据：
+            URL参数：PatientId=U201612210001&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:49,194 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:GetPhoneNoByUserId
+            开始时间：2016/12/30 16:34:49
+            结束时间：2016/12/30 16:34:49
+            总 时 间：0.0250442秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:34:49,194 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:GetPhoneNoByUserId
+            开始时间：2016/12/30 16:34:49
+            结束时间：2016/12/30 16:34:49
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:35:03,073 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:ClinicalProfile
+            开始时间：2016/12/30 16:35:02
+            结束时间：2016/12/30 16:35:03
+            总 时 间：0.1226544秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:35:06,948 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PatientInfoController
+            ActionName:PatientBasicInfo
+            开始时间：2016/12/30 16:35:06
+            结束时间：2016/12/30 16:35:06
+            总 时 间：0.1366831秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:35:06,949 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PatientInfoController
+            ViewName:PatientBasicInfo
+            开始时间：2016/12/30 16:35:06
+            结束时间：2016/12/30 16:35:06
+            总 时 间：0.0010006秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:35:07,048 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:35:06
+            结束时间：2016/12/30 16:35:07
+            总 时 间：0.0952419秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:35:07,050 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:35:07
+            结束时间：2016/12/30 16:35:07
+            总 时 间：0.0010006秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:35:07,050 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:ClinicalProfile
+            开始时间：2016/12/30 16:35:03
+            结束时间：2016/12/30 16:35:07
+            总 时 间：3.9770891秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:35:13,917 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:ClinicalInfo
+            开始时间：2016/12/30 16:35:13
+            结束时间：2016/12/30 16:35:13
+            总 时 间：0.7446773秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:35:13,970 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PatientInfoController
+            ActionName:PatientBasicInfo
+            开始时间：2016/12/30 16:35:13
+            结束时间：2016/12/30 16:35:13
+            总 时 间：0.0496204秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:35:13,971 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PatientInfoController
+            ViewName:PatientBasicInfo
+            开始时间：2016/12/30 16:35:13
+            结束时间：2016/12/30 16:35:13
+            总 时 间：0.0010013秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:35:15,140 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:35:15
+            结束时间：2016/12/30 16:35:15
+            总 时 间：0.0935968秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:35:15,142 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:35:15
+            结束时间：2016/12/30 16:35:15
+            总 时 间：0.0015013秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:35:15,143 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:ClinicalInfo
+            开始时间：2016/12/30 16:35:13
+            结束时间：2016/12/30 16:35:15
+            总 时 间：1.2252208秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:35:32,910 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:ClinicalProfile
+            开始时间：2016/12/30 16:35:32
+            结束时间：2016/12/30 16:35:32
+            总 时 间：0.1192217秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:35:32,964 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PatientInfoController
+            ActionName:PatientBasicInfo
+            开始时间：2016/12/30 16:35:32
+            结束时间：2016/12/30 16:35:32
+            总 时 间：0.0515641秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:35:32,966 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PatientInfoController
+            ViewName:PatientBasicInfo
+            开始时间：2016/12/30 16:35:32
+            结束时间：2016/12/30 16:35:32
+            总 时 间：0.001001秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:35:33,041 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:35:32
+            结束时间：2016/12/30 16:35:33
+            总 时 间：0.0746297秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:35:33,043 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:35:33
+            结束时间：2016/12/30 16:35:33
+            总 时 间：0.0015007秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:35:33,043 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:ClinicalProfile
+            开始时间：2016/12/30 16:35:32
+            结束时间：2016/12/30 16:35:33
+            总 时 间：0.1331093秒
+            Form表单数据：
+            URL参数：UserId=U201612210001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:35:37,995 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:ClinicalProfileLoadByVisitId
+            开始时间：2016/12/30 16:35:37
+            结束时间：2016/12/30 16:35:37
+            总 时 间：0.0015892秒
+            Form表单数据：
+            URL参数：UserId=U201612210001&VisitId=Out201612210001&X-Requested-With=XMLHttpRequest
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:35:42,263 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:ClinicalProfileLoadByVisitId
+            开始时间：2016/12/30 16:35:37
+            结束时间：2016/12/30 16:35:42
+            总 时 间：4.2684911秒
+            Form表单数据：
+            URL参数：UserId=U201612210001&VisitId=Out201612210001&X-Requested-With=XMLHttpRequest
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:35:43,106 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:SymptomInfo
+            开始时间：2016/12/30 16:35:42
+            结束时间：2016/12/30 16:35:43
+            总 时 间：0.2546072秒
+            Form表单数据：
+            URL参数：UserId=U201612210001&VisitId=Out201612210001&X-Requested-With=XMLHttpRequest
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:35:47,371 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:SymptomInfo
+            开始时间：2016/12/30 16:35:43
+            结束时间：2016/12/30 16:35:47
+            总 时 间：4.0687182秒
+            Form表单数据：
+            URL参数：UserId=U201612210001&VisitId=Out201612210001&X-Requested-With=XMLHttpRequest
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:07,480 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:DiagnosisInfo
+            开始时间：2016/12/30 16:36:07
+            结束时间：2016/12/30 16:36:07
+            总 时 间：0.2359813秒
+            Form表单数据：
+            URL参数：UserId=U201612210001&VisitId=Out201612210001&X-Requested-With=XMLHttpRequest
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:12,696 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:DiagnosisInfo
+            开始时间：2016/12/30 16:36:07
+            结束时间：2016/12/30 16:36:12
+            总 时 间：5.2155096秒
+            Form表单数据：
+            URL参数：UserId=U201612210001&VisitId=Out201612210001&X-Requested-With=XMLHttpRequest
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:12,845 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:DiagnosisInfo
+            开始时间：2016/12/30 16:36:12
+            结束时间：2016/12/30 16:36:12
+            总 时 间：0.0276571秒
+            Form表单数据：
+            URL参数：UserId=U201612210001&VisitId=Out201612210001&X-Requested-With=XMLHttpRequest
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:13,437 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:DiagnosisInfo
+            开始时间：2016/12/30 16:36:12
+            结束时间：2016/12/30 16:36:13
+            总 时 间：0.5914857秒
+            Form表单数据：
+            URL参数：UserId=U201612210001&VisitId=Out201612210001&X-Requested-With=XMLHttpRequest
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:14,634 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:HealthCoachPatientList
+            开始时间：2016/12/30 16:36:14
+            结束时间：2016/12/30 16:36:14
+            总 时 间：0.0490981秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:15,136 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:36:14
+            结束时间：2016/12/30 16:36:15
+            总 时 间：0.4105594秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:15,137 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:36:15
+            结束时间：2016/12/30 16:36:15
+            总 时 间：0.0015013秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:15,138 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:HealthCoachPatientList
+            开始时间：2016/12/30 16:36:14
+            结束时间：2016/12/30 16:36:15
+            总 时 间：0.4939556秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:21,973 
+线程ID:[37] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:BasicProfile
+            开始时间：2016/12/30 16:36:21
+            结束时间：2016/12/30 16:36:21
+            总 时 间：0.1216432秒
+            Form表单数据：
+            URL参数：PatientId=U201611020002&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:22,832 
+线程ID:[37] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:36:22
+            结束时间：2016/12/30 16:36:22
+            总 时 间：0.4045763秒
+            Form表单数据：
+            URL参数：PatientId=U201611020002&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:22,833 
+线程ID:[37] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:36:22
+            结束时间：2016/12/30 16:36:22
+            总 时 间：0.001503秒
+            Form表单数据：
+            URL参数：PatientId=U201611020002&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:22,834 
+线程ID:[37] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:BasicProfile
+            开始时间：2016/12/30 16:36:21
+            结束时间：2016/12/30 16:36:22
+            总 时 间：0.8597344秒
+            Form表单数据：
+            URL参数：PatientId=U201611020002&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:23,048 
+线程ID:[10] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:GetPhoneNoByUserId
+            开始时间：2016/12/30 16:36:23
+            结束时间：2016/12/30 16:36:23
+            总 时 间：0.0290538秒
+            Form表单数据：
+            URL参数：UserId=U201611020002
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:23,048 
+线程ID:[10] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:GetPhoneNoByUserId
+            开始时间：2016/12/30 16:36:23
+            结束时间：2016/12/30 16:36:23
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201611020002
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:24,622 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:ClinicalProfile
+            开始时间：2016/12/30 16:36:24
+            结束时间：2016/12/30 16:36:24
+            总 时 间：0.1126859秒
+            Form表单数据：
+            URL参数：UserId=U201611020002
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:24,682 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PatientInfoController
+            ActionName:PatientBasicInfo
+            开始时间：2016/12/30 16:36:24
+            结束时间：2016/12/30 16:36:24
+            总 时 间：0.0571353秒
+            Form表单数据：
+            URL参数：UserId=U201611020002
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:24,683 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PatientInfoController
+            ViewName:PatientBasicInfo
+            开始时间：2016/12/30 16:36:24
+            结束时间：2016/12/30 16:36:24
+            总 时 间：0.001001秒
+            Form表单数据：
+            URL参数：UserId=U201611020002
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:24,753 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:36:24
+            结束时间：2016/12/30 16:36:24
+            总 时 间：0.0695936秒
+            Form表单数据：
+            URL参数：UserId=U201611020002
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:24,754 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:36:24
+            结束时间：2016/12/30 16:36:24
+            总 时 间：0.0015013秒
+            Form表单数据：
+            URL参数：UserId=U201611020002
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:24,754 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:ClinicalProfile
+            开始时间：2016/12/30 16:36:24
+            结束时间：2016/12/30 16:36:24
+            总 时 间：0.1321086秒
+            Form表单数据：
+            URL参数：UserId=U201611020002
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:30,307 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:HealthCoachPatientList
+            开始时间：2016/12/30 16:36:30
+            结束时间：2016/12/30 16:36:30
+            总 时 间：0.0551046秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:30,463 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:36:30
+            结束时间：2016/12/30 16:36:30
+            总 时 间：0.0711555秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:30,465 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:36:30
+            结束时间：2016/12/30 16:36:30
+            总 时 间：0.0015009秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:30,465 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:HealthCoachPatientList
+            开始时间：2016/12/30 16:36:30
+            结束时间：2016/12/30 16:36:30
+            总 时 间：0.1579522秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:33,537 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:BasicProfile
+            开始时间：2016/12/30 16:36:33
+            结束时间：2016/12/30 16:36:33
+            总 时 间：0.1101572秒
+            Form表单数据：
+            URL参数：PatientId=U201611020001&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:33,754 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:36:33
+            结束时间：2016/12/30 16:36:33
+            总 时 间：0.1013277秒
+            Form表单数据：
+            URL参数：PatientId=U201611020001&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:33,756 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:36:33
+            结束时间：2016/12/30 16:36:33
+            总 时 间：0.0010006秒
+            Form表单数据：
+            URL参数：PatientId=U201611020001&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:33,756 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:BasicProfile
+            开始时间：2016/12/30 16:36:33
+            结束时间：2016/12/30 16:36:33
+            总 时 间：0.2188725秒
+            Form表单数据：
+            URL参数：PatientId=U201611020001&Role=Patient
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:33,991 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:GetPhoneNoByUserId
+            开始时间：2016/12/30 16:36:33
+            结束时间：2016/12/30 16:36:33
+            总 时 间：0.0386236秒
+            Form表单数据：
+            URL参数：UserId=U201611020001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:33,991 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:GetPhoneNoByUserId
+            开始时间：2016/12/30 16:36:33
+            结束时间：2016/12/30 16:36:33
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：UserId=U201611020001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:35,736 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:ClinicalProfile
+            开始时间：2016/12/30 16:36:35
+            结束时间：2016/12/30 16:36:35
+            总 时 间：0.0716457秒
+            Form表单数据：
+            URL参数：UserId=U201611020001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:36,090 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PatientInfoController
+            ActionName:PatientBasicInfo
+            开始时间：2016/12/30 16:36:35
+            结束时间：2016/12/30 16:36:36
+            总 时 间：0.3512083秒
+            Form表单数据：
+            URL参数：UserId=U201611020001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:36,091 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PatientInfoController
+            ViewName:PatientBasicInfo
+            开始时间：2016/12/30 16:36:36
+            结束时间：2016/12/30 16:36:36
+            总 时 间：0.0010016秒
+            Form表单数据：
+            URL参数：UserId=U201611020001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:36,157 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:36:36
+            结束时间：2016/12/30 16:36:36
+            总 时 间：0.0655639秒
+            Form表单数据：
+            URL参数：UserId=U201611020001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:36,159 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:36:36
+            结束时间：2016/12/30 16:36:36
+            总 时 间：0.001001秒
+            Form表单数据：
+            URL参数：UserId=U201611020001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:36,159 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:ClinicalProfile
+            开始时间：2016/12/30 16:36:35
+            结束时间：2016/12/30 16:36:36
+            总 时 间：0.4232195秒
+            Form表单数据：
+            URL参数：UserId=U201611020001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:39,821 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:ClinicalProfileLoadByVisitId
+            开始时间：2016/12/30 16:36:39
+            结束时间：2016/12/30 16:36:39
+            总 时 间：7.4E-05秒
+            Form表单数据：
+            URL参数：UserId=U201611020001&VisitId=Out201611020002&X-Requested-With=XMLHttpRequest
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:39,825 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:ClinicalProfileLoadByVisitId
+            开始时间：2016/12/30 16:36:39
+            结束时间：2016/12/30 16:36:39
+            总 时 间：0.003002秒
+            Form表单数据：
+            URL参数：UserId=U201611020001&VisitId=Out201611020002&X-Requested-With=XMLHttpRequest
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:40,377 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:SymptomInfo
+            开始时间：2016/12/30 16:36:40
+            结束时间：2016/12/30 16:36:40
+            总 时 间：0.0626272秒
+            Form表单数据：
+            URL参数：UserId=U201611020001&VisitId=Out201611020002&X-Requested-With=XMLHttpRequest
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:40,702 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:SymptomInfo
+            开始时间：2016/12/30 16:36:40
+            结束时间：2016/12/30 16:36:40
+            总 时 间：0.324264秒
+            Form表单数据：
+            URL参数：UserId=U201611020001&VisitId=Out201611020002&X-Requested-With=XMLHttpRequest
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:42,213 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:DiagnosisInfo
+            开始时间：2016/12/30 16:36:42
+            结束时间：2016/12/30 16:36:42
+            总 时 间：0.0325876秒
+            Form表单数据：
+            URL参数：UserId=U201611020001&VisitId=Out201611020002&X-Requested-With=XMLHttpRequest
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:43,208 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:DiagnosisInfo
+            开始时间：2016/12/30 16:36:42
+            结束时间：2016/12/30 16:36:43
+            总 时 间：0.9949041秒
+            Form表单数据：
+            URL参数：UserId=U201611020001&VisitId=Out201611020002&X-Requested-With=XMLHttpRequest
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:43,396 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:DiagnosisInfo
+            开始时间：2016/12/30 16:36:43
+            结束时间：2016/12/30 16:36:43
+            总 时 间：0.0525452秒
+            Form表单数据：
+            URL参数：UserId=U201611020001&VisitId=Out201611020002&X-Requested-With=XMLHttpRequest
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:36:44,006 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:DiagnosisInfo
+            开始时间：2016/12/30 16:36:43
+            结束时间：2016/12/30 16:36:44
+            总 时 间：0.6095487秒
+            Form表单数据：
+            URL参数：UserId=U201611020001&VisitId=Out201611020002&X-Requested-With=XMLHttpRequest
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:37:03,194 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:ExaminationInfo
+            开始时间：2016/12/30 16:37:02
+            结束时间：2016/12/30 16:37:03
+            总 时 间：0.2432607秒
+            Form表单数据：
+            URL参数：UserId=U201611020001&VisitId=Out201611020002&X-Requested-With=XMLHttpRequest
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:37:08,746 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:ExaminationInfo
+            开始时间：2016/12/30 16:37:03
+            结束时间：2016/12/30 16:37:08
+            总 时 间：5.5511589秒
+            Form表单数据：
+            URL参数：UserId=U201611020001&VisitId=Out201611020002&X-Requested-With=XMLHttpRequest
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:37:08,889 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:ExaminationInfo
+            开始时间：2016/12/30 16:37:08
+            结束时间：2016/12/30 16:37:08
+            总 时 间：0.0491395秒
+            Form表单数据：
+            URL参数：UserId=U201611020001&VisitId=Out201611020002&X-Requested-With=XMLHttpRequest
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:37:10,627 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:ExaminationInfo
+            开始时间：2016/12/30 16:37:08
+            结束时间：2016/12/30 16:37:10
+            总 时 间：1.7379267秒
+            Form表单数据：
+            URL参数：UserId=U201611020001&VisitId=Out201611020002&X-Requested-With=XMLHttpRequest
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:37:29,077 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:ClinicalInfo
+            开始时间：2016/12/30 16:37:28
+            结束时间：2016/12/30 16:37:29
+            总 时 间：0.1576795秒
+            Form表单数据：
+            URL参数：UserId=U201611020001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:37:29,148 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PatientInfoController
+            ActionName:PatientBasicInfo
+            开始时间：2016/12/30 16:37:29
+            结束时间：2016/12/30 16:37:29
+            总 时 间：0.0681758秒
+            Form表单数据：
+            URL参数：UserId=U201611020001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:37:29,149 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PatientInfoController
+            ViewName:PatientBasicInfo
+            开始时间：2016/12/30 16:37:29
+            结束时间：2016/12/30 16:37:29
+            总 时 间：0.0010009秒
+            Form表单数据：
+            URL参数：UserId=U201611020001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:37:30,552 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:37:30
+            结束时间：2016/12/30 16:37:30
+            总 时 间：0.0932892秒
+            Form表单数据：
+            URL参数：UserId=U201611020001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:37:30,553 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:37:30
+            结束时间：2016/12/30 16:37:30
+            总 时 间：0.001501秒
+            Form表单数据：
+            URL参数：UserId=U201611020001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:37:30,554 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:ClinicalInfo
+            开始时间：2016/12/30 16:37:29
+            结束时间：2016/12/30 16:37:30
+            总 时 间：1.4776157秒
+            Form表单数据：
+            URL参数：UserId=U201611020001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:38:20,707 
+线程ID:[32] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:ClinicalInfo
+            开始时间：2016/12/30 16:38:20
+            结束时间：2016/12/30 16:38:20
+            总 时 间：0.1556647秒
+            Form表单数据：UserId=U201611020001&VisitType=1&ClinicalInfo.VisitIdSelected=&ClinicalInfo.HospitalCode=HJZYY&ClinicalInfo.DepartmentCode=26&ClinicalInfo.Doctor=LEE&ClinicalInfo.AdmissionDate=2016-12-30 16:38:12&DischargeDate=
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:38:20,730 
+线程ID:[32] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:ClinicalInfo
+            开始时间：2016/12/30 16:38:20
+            结束时间：2016/12/30 16:38:20
+            总 时 间：0.0220183秒
+            Form表单数据：UserId=U201611020001&VisitType=1&ClinicalInfo.VisitIdSelected=&ClinicalInfo.HospitalCode=HJZYY&ClinicalInfo.DepartmentCode=26&ClinicalInfo.Doctor=LEE&ClinicalInfo.AdmissionDate=2016-12-30 16:38:12&DischargeDate=
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:38:21,169 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：DoctorHomeController
+            ActionName:ClinicalInfo
+            开始时间：2016/12/30 16:38:20
+            结束时间：2016/12/30 16:38:21
+            总 时 间：0.3964775秒
+            Form表单数据：
+            URL参数：UserId=U201611020001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:38:21,226 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PatientInfoController
+            ActionName:PatientBasicInfo
+            开始时间：2016/12/30 16:38:21
+            结束时间：2016/12/30 16:38:21
+            总 时 间：0.0536239秒
+            Form表单数据：
+            URL参数：UserId=U201611020001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:38:21,227 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PatientInfoController
+            ViewName:PatientBasicInfo
+            开始时间：2016/12/30 16:38:21
+            结束时间：2016/12/30 16:38:21
+            总 时 间：0.0010003秒
+            Form表单数据：
+            URL参数：UserId=U201611020001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:38:22,282 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：PersonalController
+            ActionName:UserOverview
+            开始时间：2016/12/30 16:38:22
+            结束时间：2016/12/30 16:38:22
+            总 时 间：0.0847836秒
+            Form表单数据：
+            URL参数：UserId=U201611020001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:38:22,284 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：PersonalController
+            ViewName:UserOverview
+            开始时间：2016/12/30 16:38:22
+            结束时间：2016/12/30 16:38:22
+            总 时 间：0.001501秒
+            Form表单数据：
+            URL参数：UserId=U201611020001
+                    
+ 
+
+ 
+记录时间：2016-12-30 16:38:22,285 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：DoctorHomeController
+            ViewName:ClinicalInfo
+            开始时间：2016/12/30 16:38:21
+            结束时间：2016/12/30 16:38:22
+            总 时 间：1.1152076秒
+            Form表单数据：
+            URL参数：UserId=U201611020001
+                    
+ 
