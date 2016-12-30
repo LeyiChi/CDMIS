@@ -399,7 +399,7 @@
     //验证输入参数值合法性
     function IsLegal(o) {
         if (document.getElementById(o).value != "") {
-            var re = /^1[3|4|5|7|8][0-9]\d{8}$/;
+            var re = /^((\+?86)|(\(\+86\)))?(1(3[0-9]|4[57]|5[0-35-9]|7[0135678]|8[0-9])[0-9]{8}$)/;
             if (!re.test(document.getElementById(o).value)) {
                 $("#PhoneNoError").show();
                 $(".validatePhoneNo").hide();

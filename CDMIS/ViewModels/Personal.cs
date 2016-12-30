@@ -41,7 +41,7 @@ namespace CDMIS.ViewModels
         [RegularExpression(@"(^\d{4}-\d{2}-\d{2}$)", ErrorMessage = "请填写正确格式的出生日期")]
         public string Birthday { get; set; }                  //出生日期
 
-        [RegularExpression(@"(^\d{18}$)|(^\d{15}$)|(^\d{17}X$)", ErrorMessage = "请填写正确格式的身份证号")]
+        [RegularExpression(@"(^[1-9]\d{5}(18|19|([23]\d))\d{2}((0[1-9])|(10|11|12))(([0-2][1-9])|10|20|30|31)\d{3}[0-9Xx]$)", ErrorMessage = "请填写正确格式的身份证号")]
         public string IDNO { get; set; }                        //身份证号码
 
         public string PhoneNumber { get; set; }                 //手机号码

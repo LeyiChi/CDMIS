@@ -35,7 +35,7 @@ namespace CDMIS.Models
         public string Diagnosis { get; set; }
         [Required(ErrorMessage = "出生日期必填")]
         public string Birthday { get; set; }                //患者出生年月   2014/12/26  CSQ
-        [RegularExpression(@"(^\d{18}$)|(^\d{15}$)|(^\d{17}X$)", ErrorMessage = "身份证号码格式输入不正确")]
+        [RegularExpression(@"(^[1-9]\d{5}(18|19|([23]\d))\d{2}((0[1-9])|(10|11|12))(([0-2][1-9])|10|20|30|31)\d{3}[0-9Xx]$)", ErrorMessage = "身份证号码格式输入不正确")]
         public string IDNo { get; set; }                 //患者身份证号码   2014/12/11 CSQ
 
         public string Module { get; set; }

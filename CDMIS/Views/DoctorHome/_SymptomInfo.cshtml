@@ -186,7 +186,7 @@
                     @Html.TextBoxFor(model => model.Symptoms.RecordDate, new { id = "RecordDateInput", @onclick = "WdatePicker({maxDate:'#F{$dp.$D(LastDate)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
                 }
                 else{
-                    @Html.TextBoxFor(model => model.Symptoms.RecordDate, new { id = "RecordDateInput", @onclick = "WdatePicker({maxDate:'#F{$dp.$D(FirstDate,{d:1})}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
+                    @Html.TextBoxFor(model => model.Symptoms.RecordDate, new { id = "RecordDateInput", @onclick = "WdatePicker({maxDate:'#F{$dp.$D(FirstDate)}',dateFmt:'yyyy-MM-dd HH:mm:ss'})", @class = "form-control" })
                 }
                     @Html.ValidationMessageFor(model => model.Symptoms.RecordDate)
                 </div>
@@ -265,7 +265,7 @@
                 @Html.TextBoxFor(model => model.Symptoms.RecordDate, new { id = "RecordDate", @onclick = "WdatePicker({maxDate:'#F{$dp.$D(LastDate)}'})", @class = "form-control" })
             }
             else { 
-                @Html.TextBoxFor(model => model.Symptoms.RecordDate, new { id = "RecordDate", @onclick = "WdatePicker({maxDate:'#F{$dp.$D(FirstDate,{d:1})}'})", @class = "form-control" })
+                @Html.TextBoxFor(model => model.Symptoms.RecordDate, new { id = "RecordDate", @onclick = "WdatePicker({maxDate:'#F{$dp.$D(FirstDate)}'})", @class = "form-control" })
             }
                 
                 @Html.ValidationMessageFor(model => model.Symptoms.RecordDate)
